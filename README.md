@@ -52,12 +52,7 @@
 | 기술 | 설명 |
 |:---:|:---|
 | 디자인 패턴 | ● **싱글톤** 패턴 Managers클래스에 적용하여 여러 객체 관리 <br> ● **FSM** 패턴을 사용하여 플레이어 및 AI 기능 구현 <br> ● **옵저버** 패턴을 사용하여 플레이어 상태, 스킬 상태를 변경시에만 UI 업데이트|
-| 미니게임 흐름 | 게임 진행을 FSM으로 관리하여 명확하게 기능 구현 및 수행 |\
 | GameData | Json형태의 파일로 관리 |
-| Save | 게임 데이터를 BackEnd에 Json형태로 저장 |
-| Load | 게임 데이터를 BackEnd에서 Json형태로 불러온다.|
-| Object Pooling | 자주 사용되는 객체는 Pool 관리하여 재사용 |
-| UI 자동화 | 유니티 UI 상에서 컴포넌트로 Drag&Drop되는 일을 줄이기 위한 편의성 |
 
 <br>
 
@@ -65,34 +60,26 @@
 
 ### **구조 설계**
 
-대부분 유니티 프로젝트에서 사용되고 자주 사용하는 기능들을 구현하여 싱글톤 클래스인 Managers에서 접근할 수 있도록 구현
+대부분 Cocos2d-x 프로젝트에서 사용되고 자주 사용하는 기능들을 구현하여 싱글톤 클래스인 Managers에서 접근할 수 있도록 구현
       
 #### **코어 매니저**
 
-+ DataManager - 데이터 관리 매니저
-+ InputManager - 사용자 입력 관리 매니저
-+ ParticalManager - 파티클 생성 유틸
-+ PhotonNetworkManager - 포톤 네트워크 객체 관리 매니저
-+ PoolManager - 오브젝트 풀링 매니저
-+ ResourceManager - 리소스 매니저
-+ SceneManager - 씬 매니저
++ SceneManager - 생성된 씬을 관리하는 매니저
 + SoundManager - 사운드 매니저
-+ UIManager - UI 매니저
-
++ InputManager - 사용자 입력 관리 매니저
++ DataManager  - 데이터 관리 매니저
++ UIManager    - UI 매니저
+  
         
 #### **컨텐츠 매니저**
 
++ MapManager
+  + 게임 맵을 불러오거나, 맵정보 기반으로 오브젝트를 스폰하기 위한 매니저
+    
 + GameManager
-  + 네트워크에 존재하는 게임 오브젝트를 서치, 씬 정보, 소유 플레이어, 관전 등 각종 유틸 클래스
-  + 네트워크 오브젝트들은 고유의 ViewId를 가지고 있어 이를 key로 이용해 자료구조 Dictionary<key, GameObject>형태로 저장
-  + BaseController를 상속받는 모든 클래스가 AWake()를 실행 시 SetPhotonObject함수 실행하여 등록하도록 설계
-  + Photon은 룸오브젝트는 ViewID 0 ~ 999, 플레이어 오브젝트는 ViewID 1000번 이후로 플레이어당 1000개의 오브젝트들을 각각 할당 할 수 있습니다.
+  + 게임 정보 및 로직을 수행하는 매니저
 
-+ GameOptionManager
-  + 게임 해상도, 그래픽 품질, 사운드, 마우스 감도 값들을 관리하는 매니저
-  + Json파일로 데이터를 저장 및 불러옵니다.
-  + UI_Preferences클래스에서 UI로 환경 설정하면 값이 반영됩니다.
-         
+
 [Managers.cs](https://github.com/k660323/FunnyLand/blob/main/Scripts/Managers/Managers.cs)
 
 <br>
@@ -103,9 +90,9 @@
      
 ### **씬**
 
-전체적인 씬은 로그인, 로비, 게임 선택, 게임 씬으로 나눠서 구현
+전체적인 씬은 로비, 게임 씬으로 나눠서 구현
    
-#### **로그인 씬**
+#### **로비 씬**
 + LoginScene
   + 해당 씬만의 기능 수행 및 특정 오브젝트 관리
     
@@ -410,7 +397,7 @@
   + 사용자 정의 클래스는 cocos2d-x에서 관리되지 않아 개발자가 스스로 메모리를 관리해야기 때문에 메모리 생명주기를 신경써서 코딩함으로써 메모리 관리에 대한 경험 및 이해가 생겼습니다.
 
  
-## 6. 느낌점
+## 6. 느낀점
 + 상용엔진에서 제공하는 유틸 함수 툴 기능을 직접 구현하다 보니 게임 구조에 대해 좀 더 깊이 있게 이해가 되었습니다.
 
 
