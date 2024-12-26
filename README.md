@@ -80,7 +80,9 @@
   + 게임 정보 및 로직을 수행하는 매니저
 
 
-[Managers.cs](https://github.com/k660323/FunnyLand/blob/main/Scripts/Managers/Managers.cs)
+[Managers.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers.h)
+
+[Managers.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers.cpp)
 
 <br>
 
