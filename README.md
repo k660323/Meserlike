@@ -103,6 +103,7 @@
 
 [LobbyScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/LobbyScene.cpp)
 
+<br>
     
 + UI_LobbyScene
   + 플레이어와 상호작용하는 UI
@@ -125,7 +126,7 @@
 
 <br>
 
-##### **게임 씬**
+#### **게임 씬**
 + GameScene
   + 플레이어가 생성되고 매 라운드마다 데이터를 참고하여 몬스터를 스폰하여 컨텐츠를 진행하는 클래스
 
@@ -133,15 +134,18 @@
 1. Init() - 오브젝트 첫 생성시 호출되는 함수, 초기화, 물리 초기화, spawningPool 메모리 할당
 2. onEnter() - 씬 활성화시 호출 함수, 씬 타입 설정, 맵 로드 및 배치, GameStart()함수 지연 호출
 3. GameStart() - 플레이어 오브젝트 생성 및 배치, 랜덤 물약 스폰, UI_GameScene 생성, 키입력 바인딩, 몬스터 스폰 시작
-    
+
 [GameScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/GameScene.h)
 
 [GameScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/GameScene.cpp)
+
+<br>
 
 + SpawningPool
   + DataManager클래스의 RoundSpawnData를 가져와 데이터 기반으로 몬스터를 스폰하는 클래스 입니다.
 
  **스폰 과정**
+
 TrySpawn() (라운드 초기화)
   + TrySpawn을 통해 현재 라운드가 마지막일 경우 종료 이벤트 발생 아닐 경우 몬스터를 스폰할 준비를 합니다.
   + DataManager클래스 GetRounSpawnDataData()를 통해 RoundSpawnData를 가져옵니다.
