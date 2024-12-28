@@ -130,9 +130,7 @@
   + 씬 초기화
   + UI_LobbyScene 생성 및 배경음악 실행
 
-[LobbyScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/LobbyScene.h)
-
-[LobbyScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/LobbyScene.cpp)
+[[LobbyScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/LobbyScene.h) / [LobbyScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/LobbyScene.cpp)]
 
 <br>
     
@@ -147,9 +145,7 @@
   + 게임종료
     + 애플리케이션을 종료합니다.  
 
-[UI_LobbyScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/UI_LobbyScene.h)
-
-[UI_LobbyScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/UI_LobbyScene.cpp)
+[[UI_LobbyScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/UI_LobbyScene.h) / [UI_LobbyScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/UI_LobbyScene.cpp)]
 
 <br>
 
@@ -166,9 +162,7 @@
 2. onEnter() - 씬 활성화시 호출 함수, 씬 타입 설정, 맵 로드 및 배치, GameStart()함수 지연 호출
 3. GameStart() - 플레이어 오브젝트 생성 및 배치, 랜덤 물약 스폰, UI_GameScene 생성, 키입력 바인딩, 몬스터 스폰 시작
 
-[GameScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/GameScene.h)
-
-[GameScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/GameScene.cpp)
+[[GameScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/GameScene.h) / [GameScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/GameScene.cpp)]
 
 <br>
 
