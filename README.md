@@ -65,10 +65,34 @@
 #### **코어 매니저**
 
 + SceneManager - 생성된 씬을 관리하는 매니저
+
+[[SceneManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/SceneManager.h) / [SceneManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SceneManager.cpp)]
+
+<br>
+
 + SoundManager - 사운드 매니저
+
+[[SoundManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/SoundManager.h) / [SoundManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SoundManager.cpp)]
+
+<br>
+
 + InputManager - 사용자 입력 관리 매니저
+
+[[InputManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/InputManager.h) / [InputManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/InputManager.cpp)]
+
+<br>
+
 + DataManager  - 데이터 관리 매니저
+
+[[DataManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/DataManager.h) / [DataManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/DataManager.cpp)]
+
+<br>
+
 + UIManager    - UI 매니저
+
+[[UIManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/UIManager.h) / [UIManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/UIManager.cpp)]
+
+<br>
   
         
 #### **컨텐츠 매니저**
@@ -163,9 +187,7 @@ SpawnMosnter() (몬스터 생성)
   + 모두 스폰 되었으면 다음 웨이브가 존재 여부에 따라 스폰 및 종료 한다.
     
 
- [SpawningPool.h](https://github.com/k660323/Meserlike/blob/main/Classes/SpawningPool.h)
-
- [SpawningPool.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SpawningPool.cpp)
+[[SpawningPool.h](https://github.com/k660323/Meserlike/blob/main/Classes/SpawningPool.h) / [SpawningPool.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SpawningPool.cpp)]
 
 <br>
 
@@ -175,9 +197,18 @@ SpawnMosnter() (몬스터 생성)
 
 ### **월드 오브젝트**
 + Creature
+  + 여러 오브젝트를 가지고 있고 상호 작용 가능한 컨텐츠 오브젝트
+  + Player, Monster 클래스가 사용할 공통적인 기능들을 정의한 클래스
+  + 이 클래스르 직접적으로 쓰이지 않고 상속받아 사용한다.
+
+[[Creature.h](https://github.com/k660323/Meserlike/blob/main/Classes/Creature.h) / [Creature.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Creature.cpp)]
+
+<br>
 
 + Player
-
+  + Creature  클래스를 상속받은 클래스이며 게임 플레이어가 사용할 클래스
+  + 
+  
 + NormalMonster
 
 + BossMonster
