@@ -199,8 +199,8 @@ SpawnMosnter() (몬스터 생성)
 ### **월드 오브젝트**
 + Creature
   + 여러 오브젝트를 가지고 있고 상호 작용 가능한 컨텐츠 오브젝트
+  + 애니메이션, 스탯, 컨트롤러, 스킬북 등 각종 클래스를 초기화 및 관리하는 클래스
   + Player, Monster 클래스가 사용할 공통적인 기능들을 정의한 클래스
-  + 이 클래스르 직접적으로 쓰이지 않고 상속받아 사용한다.
 
 [[Creature.h](https://github.com/k660323/Meserlike/blob/main/Classes/Creature.h) / [Creature.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Creature.cpp)]
 
@@ -208,11 +208,30 @@ SpawnMosnter() (몬스터 생성)
 
 + Player
   + Creature  클래스를 상속받은 클래스이며 게임 플레이어가 사용할 클래스
-  + 
-  
+  + 플레이어 스탯, 플레이어 컨트롤러 클래스를 초기화 및 관리하는 클래스
+  + 대시 - 쿨타임이 있으며 사용시 플레이어를 물리적으로 빠르게 이동시키는 스킬
+
+[[Player.h](https://github.com/k660323/Meserlike/blob/main/Classes/Player.h) / [Player.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Player.cpp)]
+
+<br>
+
++ Monster
+  + Creature 클래스를 상속받은 클래스이며 몬스터 클래스가 사용하기 위한 기초 클래스 
+  + 몬스터 스탯, 몬스터 컨트롤러 클래스 초기화 및 관리하는 클래스
+
+[[Monster.h](https://github.com/k660323/Meserlike/blob/main/Classes/Monster.h) / [Monster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Monster.cpp)]
+
+<br>
+
 + NormalMonster
+  + Monster 클래스를 상속받은 클래스이며 일반 몬스터는 모두 이 클래스를 상속받아 사용한다.
+  + 생성자의 인자에 따라 스프라이트, 능력치, 기술이 설정된다.
+  + init() 함수에서 충돌 판정 바인딩ㅎ나다.
+
+[[NormalMonster.h](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonster.h) / [NormalMonster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonster.cpp)]
 
 + BossMonster
+  + Monster 클래스를 상속받은 클래스이며 특수 몬스터는 이 클래스를 상속받아 사용한다.
 
 <br>
 
