@@ -264,19 +264,12 @@ SpawnMosnter() (몬스터 생성)
 
 <br>
 
-+ NormalMonsterController
++ NormalMonsterController / BossMonsterController
   + MonsterController를 상속받은 클래스
   + FSM(유한 상태 머신) 패턴으로 몬스터 로직 구현
   + Update()함수에서 각 상태를 대한 함수를 실행하여 유기적으로 상태전환이 되도록 설계 (Idle, Move, Dead)
 
 [[NormalMonsterController.h](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonsterController.h) / [NormalMonsterController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonsterController.cpp)]
-
-<br>
-
-+ BossMonsterController
-  + MonsterController를 상속받은 클래스
-  + FSM(유한 상태 머신) 패턴으로 몬스터 로직 구현
-  + Update()함수에서 각 상태를 대한 함수를 실행하여 유기적으로 상태전환이 되도록 설계 (Idle, Move, Dead)
 
 [[BossMonsterControoler.h](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonsterController.h) / [BossMonsterController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonsterController.cpp)]
 
@@ -287,6 +280,46 @@ SpawnMosnter() (몬스터 생성)
 <br>
 
 ### **스킬**
+
++ SkillBook
+  +
+
+[[SkillBook.h](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBook.h) / [SkillBook.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBook.cpp)]
+
+<br>
+
++ SkillBase
+  + 
+
+[[SkillBase.h](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBase.h) / [SkillBase.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBase.cpp)]
+
+<br>
+
++ RepeatSkill
+  + 
+
+[[RepeatSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/RepeatSkill.h) / [RepeatSkill.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/RepeatSkill.cpp)]
+
+<br>
+
++ SequenceSkill
+  + 
+
+[[SequenceSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/SequenceSkill.h) / [SequenceSkill.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SequenceSkill.cpp)]
+
+<br>
+
++ PassiveSkill
+  + 
+
+[[PassiveSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/PassiveSkill.h) / [PassiveSkill](https://github.com/k660323/Meserlike/blob/main/Classes/PassiveSkill.cpp)]
+
+<br>
+
++ SkillDefine
+  + 
+
+[[SkillDefine.h](https://github.com/k660323/Meserlike/blob/main/Classes/SkillDefine.h)]
 
 <br>
 
@@ -312,13 +345,32 @@ SpawnMosnter() (몬스터 생성)
 
 <br>
 
-### **기타**
+### **애니메이션**
+
++ AnimateEx
+  + 
 
 <br>
 
 ---
 
 <br>
+
+### **기타**
+
++ Utils 클래스
+  + 
+
++ Define 클래스
+  + 
+
+<br>
+
+---
+
+<br>
+
+
 
 ## 5. 구현에 어려웠던 점과 해결과정
 + GUI없이 구현하다 보니 에디터 및 런타임에 UI 배치 또는 직접 값을 수정할 수 없어 UI 배치에 어려움을 겪었습니다.
