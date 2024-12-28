@@ -61,7 +61,15 @@
 ### **구조 설계**
 
 대부분 Cocos2d-x 프로젝트에서 사용되고 자주 사용하는 기능들을 구현하여 싱글톤 클래스인 Managers에서 접근할 수 있도록 구현
-      
+
+#### **매니저**
+
++ Managers - 아래의 매니저들을 관리하는 매니저
+
+[[Managers.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers.h) / [Managers.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers.cpp)]
+
+<br>
+
 #### **코어 매니저**
 
 + SceneManager - 생성된 씬을 관리하는 매니저
@@ -92,21 +100,20 @@
 
 [[UIManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/UIManager.h) / [UIManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/UIManager.cpp)]
 
-<br>
-  
-        
+       
 #### **컨텐츠 매니저**
 
 + MapManager
   + 게임 맵을 불러오거나, 맵정보 기반으로 오브젝트를 스폰하기 위한 매니저
-    
+
+[[MapManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/MapManager.h) / [MapManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/MapManager.cpp)]
+
+<br>
+
 + GameManager
   + 게임 정보 및 로직을 수행하는 매니저
 
-
-[Managers.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers.h)
-
-[Managers.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers.cpp)
+[[GameManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/GameManager.h) / [GameManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/GameManager.cpp)]
 
 <br>
 
