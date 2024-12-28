@@ -223,21 +223,17 @@ SpawnMosnter() (몬스터 생성)
 
 <br>
 
-+ NormalMonster
++ NormalMonster / BossMonster
   + Monster 클래스를 상속받은 클래스이며 일반 몬스터는 모두 이 클래스를 상속받아 사용한다.
   + 생성자의 인자에 따라 스프라이트, 능력치, 기술이 설정된다.
+  + 노말 몬스터 컨트롤러 / 보스 몬스터 컨트로럴르 초기화 및 관리하는 클래스
   + init() 함수에서 충돌 판정 바인딩 합니다.
-
+  + SpawningPool 클래스에서 BossMonster 클래스를 지닌 몬스터를 스폰시 보스 전용 UI를 출력합니다.
+  + 
 [[NormalMonster.h](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonster.h) / [NormalMonster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonster.cpp)]
 
-<br>
-
-+ BossMonster
-  + Monster 클래스를 상속받은 클래스이며 특수 몬스터는 이 클래스를 상속받아 사용한다.
-  + 보스 컨트롤러 클래스 초기화 및 관리하는 클래스
-  + SpawningPool 클래스에서 BossMonster 클래스를 지닌 몬스터를 스폰시 보스 전용 UI를 출력합니다.
-
 [[BossMonster.h](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonster.h) / [BossMonster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonster.cpp)]
+
 
 <br>
 
