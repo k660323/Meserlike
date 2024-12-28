@@ -226,12 +226,16 @@ SpawnMosnter() (몬스터 생성)
 + NormalMonster
   + Monster 클래스를 상속받은 클래스이며 일반 몬스터는 모두 이 클래스를 상속받아 사용한다.
   + 생성자의 인자에 따라 스프라이트, 능력치, 기술이 설정된다.
-  + init() 함수에서 충돌 판정 바인딩ㅎ나다.
+  + init() 함수에서 충돌 판정 바인딩 합니다.
 
 [[NormalMonster.h](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonster.h) / [NormalMonster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonster.cpp)]
 
 + BossMonster
   + Monster 클래스를 상속받은 클래스이며 특수 몬스터는 이 클래스를 상속받아 사용한다.
+  + 보스 컨트롤러 클래스 초기화 및 관리하는 클래스
+  + SpawningPool 클래스에서 BossMonster 클래스를 지닌 몬스터를 스폰시 보스 전용 UI를 출력합니다.
+
+[[BossMonster.h](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonster.h) / [BossMonster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonster.cpp)]
 
 <br>
 
@@ -242,12 +246,39 @@ SpawnMosnter() (몬스터 생성)
 ### **컨트롤러**
 
 + BaseController
+  + Creature클래스를 다루기 위한 기초 컨트롤러 클래스
+  + 공통적으로 사용되는 기능을 정의한 클래스 (Stat, Creature 멤버변수를 가지고 있으며 매 프레임 마다 처리할 함수 Update를 스케줄러에 등록한다.)
+  + 애니메이션은 SetState 가상함수가 상태변경시 애니메이션이 전환되도록 설정 구체적인 로직은 자식 클래스에서 정의
+  + 게임 로직은 Update 가상함수가 매프레임마다 처리할 로직을 정의한다 구체적인 로직은 자식 클래스에서 정의
+
+[[BaseController.h](https://github.com/k660323/Meserlike/blob/main/Classes/BaseController.h) / [BaseController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/BaseController.cpp)]
+
+<br>
 
 + PlayerController
+  + BaseController를 상속받은 클래스
+  + FSM(유한 상태 머신) 패턴으로 플레이어 로직 구현
+  + Update()함수에서 각 상태에 대한 함수 실행하여 유기적으로 상태전환이 되도록 설계 (Idle, Move, Dead)
+
+[[PlayerController.h](https://github.com/k660323/Meserlike/blob/main/Classes/PlayerController.h) / [PlayerController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/PlayerController.cpp)]
+
+<br>
 
 + NormalMonsterController
+  + MonsterController를 상속받은 클래스
+  + FSM(유한 상태 머신) 패턴으로 몬스터 로직 구현
+  + Update()함수에서 각 상태를 대한 함수를 실행하여 유기적으로 상태전환이 되도록 설계 (Idle, Move, Dead)
+
+[[NormalMonsterController.h](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonsterController.h) / [NormalMonsterController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonsterController.cpp)]
+
+<br>
 
 + BossMonsterController
+  + MonsterController를 상속받은 클래스
+  + FSM(유한 상태 머신) 패턴으로 몬스터 로직 구현
+  + Update()함수에서 각 상태를 대한 함수를 실행하여 유기적으로 상태전환이 되도록 설계 (Idle, Move, Dead)
+
+[[BossMonsterControoler.h](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonsterController.h) / [BossMonsterController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonsterController.cpp)]
 
 <br>
 
@@ -281,6 +312,14 @@ SpawnMosnter() (몬스터 생성)
 
 <br>
 
+### **기타**
+
+<br>
+
+---
+
+<br>
+
 ## 5. 구현에 어려웠던 점과 해결과정
 + GUI없이 구현하다 보니 에디터 및 런타임에 UI 배치 또는 직접 값을 수정할 수 없어 UI 배치에 어려움을 겪었습니다.
   + 비효율적이지만 배치 및 수정시 많은 컴파일을 통해 확인하여 배치 하였습니다. 그 덕분에 상용엔진의 소중함을 알게되었습니다.
@@ -291,6 +330,8 @@ SpawnMosnter() (몬스터 생성)
 + Cocos2d 클래스를 사용하지 않고 사용자 지정 클래스를 사용할 때의 메모리 관리에 애를 먹었습니다.
   + 사용자 정의 클래스는 cocos2d-x에서 관리되지 않아 개발자가 스스로 메모리를 관리해야기 때문에 메모리 생명주기를 신경써서 코딩함으로써 메모리 관리에 대한 경험 및 이해가 생겼습니다.
 
++ Cocos2d 충돌은 Dispatcher에 바인딩하는 방식이라 충돌시 바인딩된 모든 함수가 호출되서 예상치 못한 충돌 처리가 되서 오작동되는 경우가 발생했습니다.
+  + 예외 처리를 둬서 매개변수로 오는 충돌 객체와 해당 객체와 비교하여 충돌처리하도록 처리했습니다. 
  
 ## 6. 느낀점
 + 상용엔진에서 제공하는 유틸 함수 툴 기능을 직접 구현하다 보니 게임 구조에 대해 좀 더 깊이 있게 이해가 되었습니다.
