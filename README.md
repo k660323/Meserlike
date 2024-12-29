@@ -296,28 +296,34 @@ SpawnMosnter() (몬스터 생성)
 <br>
 
 + RepeatSkill
-  + 
+  + SkillBase를 상속받은 클래스
+  + 반복적인 스킬을 사용하는 기초 클래스
+  + 반복동작을 담당하는 델리게이트 함수 Action을 매개변수로 가진다.
 
 [[RepeatSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/RepeatSkill.h) / [RepeatSkill.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/RepeatSkill.cpp)]
 
 <br>
 
 + SequenceSkill
-  + 
+  + SkillBase를 상속받은 클래스
+  + 순차적으로 스킬을 사용하는 기초 클래스
+  + 스킬 사용이 끝나면 알려줄 사용자 지정 클래스인 DelegateAction을 매개변수로 가진다.
 
 [[SequenceSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/SequenceSkill.h) / [SequenceSkill.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SequenceSkill.cpp)]
 
 <br>
 
 + PassiveSkill
-  + 
+  + SkillBase를 상속받은 클래스
+  + 단순히 플레이어 및 몬스터의 능력치를 영구적으로 올려주는 클래스
 
 [[PassiveSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/PassiveSkill.h) / [PassiveSkill](https://github.com/k660323/Meserlike/blob/main/Classes/PassiveSkill.cpp)]
 
 <br>
 
 + SkillDefine
-  + 
+  + Skil을 추가하기 위한 유틸 함수
+  + ENum으로 정의된 SkillID에 따라 지정된 스킬 객체를 만들어 반환해주는 클래스
 
 [[SkillDefine.h](https://github.com/k660323/Meserlike/blob/main/Classes/SkillDefine.h)]
 
