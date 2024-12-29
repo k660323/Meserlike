@@ -280,14 +280,16 @@ SpawnMosnter() (몬스터 생성)
 ### **스킬**
 
 + SkillBook
-  +
+  + 플레이어 및 몬스터가 사용할 스킬들을 관리하는 클래스
+  + 스킬 추가, 가져오기, 반복적인 스킬 멈추기, 순차적 스킬 작동 기능 구현
 
 [[SkillBook.h](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBook.h) / [SkillBook.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBook.cpp)]
 
 <br>
 
 + SkillBase
-  + 
+  + 스킬 클래스의 기초가 되는 클래스
+  + 스킬 레벨과 레벨에 따른 스텟, 스킬 소유자 등 여러 클래스에서 사용할 기능들을 구현한 클래스
 
 [[SkillBase.h](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBase.h) / [SkillBase.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBase.cpp)]
 
