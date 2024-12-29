@@ -334,7 +334,7 @@ SpawnMosnter() (몬스터 생성)
 <br>
 
 + SkillDefine
-  + Skil을 추가하기 위한 유틸 함수
+  + Skill을 추가하기 위한 유틸 함수
   + ENum으로 정의된 SkillID에 따라 지정된 스킬 객체를 만들어 반환해주는 클래스
 
 [[SkillDefine.h](https://github.com/k660323/Meserlike/blob/main/Classes/SkillDefine.h)]
