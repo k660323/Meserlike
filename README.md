@@ -393,6 +393,13 @@ SpawnMosnter() (몬스터 생성)
 
 ### **스탯**
 
++ Stat
+  + Creature클래스가 사용하는 객체의 능력치를 관리하는 클래스
+  + 각 능력치마다 Get,Set 함수 구현
+  + 옵저버 패턴(DelegateAction라는 델리게이트 변수가 있어 함수를 미리 바인딩 해놓았으면 수치 변화에 따른 브로드 캐스팅이 가능하다.)
+  + 필요에 따라 상속받아 추가 구현한다.
+
+[[Stat.h](https://github.com/k660323/Meserlike/blob/main/Classes/Stat.h) / [Stat.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Stat.cpp)]
 
 <br>
 
