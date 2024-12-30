@@ -1,0 +1,204 @@
+{
+  "playerStatArray": [
+    {
+      "id": 1,
+      "level": 1,
+      "maxHp": 300.0,
+      "atk": 10.0,
+      "specialAtk": 5.0,
+      "defense": 0,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 500
+    },
+    {
+      "id": 2,
+      "level": 2,
+      "maxHp": 300.0,
+      "atk": 12.5,
+      "specialAtk": 6.0,
+      "defense": 0,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 1000
+    },
+    {
+      "id": 3,
+      "level": 3,
+      "maxHp": 300.0,
+      "atk": 14.5,
+      "specialAtk": 7.0,
+      "defense": 0,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 1350
+    },
+    {
+      "id": 4,
+      "level": 4,
+      "maxHp": 325.0,
+      "atk": 16.5,
+      "specialAtk": 8.0,
+      "defense": 1,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 1650
+    },
+    {
+      "id": 5,
+      "level": 5,
+      "maxHp": 325.0,
+      "atk": 18.5,
+      "specialAtk": 10.0,
+      "defense": 1,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 1850
+    },
+    {
+      "id": 6,
+      "level": 6,
+      "maxHp": 325.0,
+      "atk": 20.5,
+      "specialAtk": 12.0,
+      "defense": 1,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 2000
+    },
+    {
+      "id": 7,
+      "level": 7,
+      "maxHp": 350.0,
+      "atk": 22.0,
+      "specialAtk": 14.0,
+      "defense": 2,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 2250
+    },
+    {
+      "id": 8,
+      "level": 8,
+      "maxHp": 350.0,
+      "atk": 23.5,
+      "specialAtk": 16.0,
+      "defense": 2,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 2750
+    },
+    {
+      "id": 9,
+      "level": 9,
+      "maxHp": 350.0,
+      "atk": 26.0,
+      "specialAtk": 18.0,
+      "defense": 2,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 3000
+    },
+    {
+      "id": 10,
+      "level": 10,
+      "maxHp": 375.0,
+      "atk": 28.5,
+      "specialAtk": 20.0,
+      "defense": 3,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 4000
+    },
+    {
+      "id": 11,
+      "level": 11,
+      "maxHp": 375.0,
+      "atk": 30.0,
+      "specialAtk": 22.5,
+      "defense": 3,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 4500
+    },
+    {
+      "id": 12,
+      "level": 12,
+      "maxHp": 400.0,
+      "atk": 30.0,
+      "specialAtk": 22.5,
+      "defense": 3,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 4750
+    },
+    {
+      "id": 13,
+      "level": 13,
+      "maxHp": 400.0,
+      "atk": 31.5,
+      "specialAtk": 22.5,
+      "defense": 4,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 5000
+    },
+    {
+      "id": 14,
+      "level": 14,
+      "maxHp": 400.0,
+      "atk": 33.5,
+      "specialAtk": 23.5,
+      "defense": 4,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 5000
+    },
+    {
+      "id": 15,
+      "level": 15,
+      "maxHp": 400.0,
+      "atk": 35.0,
+      "specialAtk": 25.0,
+      "defense": 5,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 5000
+    },
+    {
+      "id": 16,
+      "level": 16,
+      "maxHp": 400.0,
+      "atk": 35.0,
+      "specialAtk": 25.0,
+      "defense": 5,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 5000
+    },
+
+    {
+      "id": 17,
+      "level": 17,
+      "maxHp": 400.0,
+      "atk": 35.0,
+      "specialAtk": 25.0,
+      "defense": 5,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 5000
+    },
+
+    {
+      "id": 18,
+      "level": 18,
+      "maxHp": 400.0,
+      "atk": 35.0,
+      "specialAtk": 25.0,
+      "defense": 5,
+      "moveSpeed": 300.0,
+      "maxStemina": 100,
+      "maxExp": 9999999
+    }
+  ]
+}

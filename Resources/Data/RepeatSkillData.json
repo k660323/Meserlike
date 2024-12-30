@@ -1,0 +1,385 @@
+{
+  "RepeatSkillDatas": [
+    {
+      "skillId": 0,
+      "skillName": "회전 도끼",
+      "skillSpritePath": "Weapon/AranPolearm.png",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0,
+          "atk": 10,
+          "specialAtk": 0,
+          "speed": 225,
+          "command": "1개의 도끼가 플레이어 주의를 돌며 공격한다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 2,
+          "cooltime": 0,
+          "atk": 20,
+          "specialAtk": 0,
+          "speed": 225,
+          "command": "2개의 도끼가 플레이어 주의를 돌며 공격한다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 3,
+          "cooltime": 0,
+          "atk": 30,
+          "specialAtk": 0,
+          "speed": 250,
+          "command": "3개의 도끼가 플레이어 주의를 돌며 공격한다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 1,
+      "skillName": "건슬링거의 총",
+      "skillSpritePath": "Weapon/Gun.png",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0.3,
+          "atk": 0,
+          "specialAtk": 8,
+          "speed": 500,
+          "command": "기본에 충실한 총",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 2,
+          "cooltime": 0.25,
+          "atk": 0,
+          "specialAtk": 15,
+          "speed": 500,
+          "command": "밸런스가 잡힌 총",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 3,
+          "cooltime": 0.2,
+          "atk": 0,
+          "specialAtk": 20,
+          "speed": 500,
+          "command": "강력한 탄을 발사",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 4,
+          "cooltime": 0.3,
+          "atk": 0,
+          "specialAtk": 26,
+          "speed": 500,
+          "command": "10초 마다 불릿 파티 시전",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 2,
+      "skillName": "활",
+      "skillSpritePath": "Weapon/Bow.png",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 2.0,
+          "atk": 0,
+          "specialAtk": 50,
+          "speed": 650,
+          "command": "기본에 충실한 활 한번에 두번 공격을 가한다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 2,
+          "cooltime": 2.0,
+          "atk": 0,
+          "specialAtk": 80,
+          "speed": 650,
+          "command": "기본에 충실한 활 한번에 두번 공격을 가한다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 3,
+          "cooltime": 2.0,
+          "atk": 0,
+          "specialAtk": 110,
+          "speed": 650,
+          "command": "기본에 충실한 활 한번에 두번 공격을 가한다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 3,
+      "skillName": "부채",
+      "skillSpritePath": "Weapon/Fan.png",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 1.5,
+          "atk": 0,
+          "specialAtk": 10,
+          "speed": 300,
+          "command": "사방에 기를 발산하는 부채 적은 기를 발산한다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 2,
+          "cooltime": 2,
+          "atk": 0,
+          "specialAtk": 12.5,
+          "speed": 305,
+          "command": "사방에 기를 발산하는 부채 적당한 기를 발산한다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 3,
+          "cooltime": 2,
+          "atk": 0,
+          "specialAtk": 15,
+          "speed": 310,
+          "command": "사방에 기를 발산하는 부채 많은 기를 발산한다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 4,
+      "skillName": "수호 방패",
+      "skillSpritePath": "Weapon/Shield.png",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 75,
+          "command": "적의 원거리 물체를 막아주는 방패",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 2,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 125,
+          "command": "적의 원거리 물체를 막아주는 방패",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 3,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 175,
+          "command": "적의 원거리 물체를 막아주는 방패",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 4000,
+      "skillName": "총알 발사",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 5,
+          "atk": 0,
+          "specialAtk": 10,
+          "speed": 250,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 2,
+          "cooltime": 5,
+          "atk": 0,
+          "specialAtk": 20,
+          "speed": 250,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 3,
+          "cooltime": 3,
+          "atk": 0,
+          "specialAtk": 25,
+          "speed": 250,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 4001,
+      "skillName": "멀티 샷",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 10,
+          "atk": 0,
+          "specialAtk": 7,
+          "speed": 250,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 2,
+          "cooltime": 7,
+          "atk": 0,
+          "specialAtk": 15,
+          "speed": 250,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 3,
+          "cooltime": 5,
+          "atk": 0,
+          "specialAtk": 20,
+          "speed": 250,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 4002,
+      "skillName": "돌진",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 100
+        },
+        {
+          "level": 2,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 110
+        },
+        {
+          "level": 3,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 120
+        }
+      ]
+    }
+  ]
+}

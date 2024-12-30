@@ -1,0 +1,234 @@
+{
+  "BuffSkillDatas": [
+    {
+      "skillId": 1000,
+      "skillName": "스피드 버프",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "이동 속도를 소폭 상승 시킨다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 25
+        },
+        {
+          "level": 2,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "이동 속도를 상승 시킨다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 50
+        },
+        {
+          "level": 3,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "이동 속도를 대폭 상승 시킨다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 75
+        }
+      ]
+    },
+    {
+      "skillId": 1001,
+      "skillName": "방어력 버프",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "방어력을 소폭 상승 시킨다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 2,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 2,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "방어력을 상승 시킨다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 4,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 3,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "방어력을 대폭 상승 시킨다.",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 6,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 1002,
+      "skillName": "최대 체력 버프",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "최대 체력을 소폭 상승 시킨다.",
+          "extraMaxHp": 50,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 2,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "최대 체력을 상승 시킨다.",
+          "extraMaxHp": 100,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 3,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "최대 체력을 대폭 상승 시킨다.",
+          "extraMaxHp": 150,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 1003,
+      "skillName": "공격력 증가 특수 공격 약화",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "공격력 상승 특수 공격 하락",
+          "extraMaxHp": 0,
+          "extraAtk": 15,
+          "extraSpecialAtk": -5,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 2,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "공격력 상승 특수 공격 하락",
+          "extraMaxHp": 0,
+          "extraAtk": 30,
+          "extraSpecialAtk": -15,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 3,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "공격력 상승 특수 공격 하락",
+          "extraMaxHp": 0,
+          "extraAtk": 45,
+          "extraSpecialAtk": -25,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 1004,
+      "skillName": "특수 공격 강화 공격 하락",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "특수 공격력 상승 공격 하락",
+          "extraMaxHp": 0,
+          "extraAtk": -5,
+          "extraSpecialAtk": 10,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 2,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "특수 공격력 상승 공격 하락",
+          "extraMaxHp": 0,
+          "extraAtk": -10,
+          "extraSpecialAtk": 20,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        },
+        {
+          "level": 3,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "특수 공격력 상승 공격 하락",
+          "extraMaxHp": 0,
+          "extraAtk": -20,
+          "extraSpecialAtk": 30,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    }
+  ]
+}
