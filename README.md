@@ -147,7 +147,7 @@
   + 게임종료
     + 애플리케이션을 종료합니다.  
 
-[[UI_LobbyScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/UI_LobbyScene.h) / [UI_LobbyScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/UI_LobbyScene.cpp)]
+[[UI_LobbyScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/UI/scene/UI_LobbyScene.h) / [UI_LobbyScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/UI/scene/UI_LobbyScene.cpp)]
 
 <br>
 
@@ -164,7 +164,7 @@
 2. onEnter() - 씬 활성화시 호출 함수, 씬 타입 설정, 맵 로드 및 배치, GameStart()함수 지연 호출
 3. GameStart() - 플레이어 오브젝트 생성 및 배치, 랜덤 물약 스폰, UI_GameScene 생성, 키입력 바인딩, 몬스터 스폰 시작
 
-[[GameScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/GameScene.h) / [GameScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/GameScene.cpp)]
+[[GameScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/Scene/GameScene.h) / [GameScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Scene/GameScene.cpp)]
 
 <br>
 
@@ -190,7 +190,7 @@ SpawnMosnter() (몬스터 생성)
   + 모두 스폰 되었으면 다음 웨이브가 존재 여부에 따라 스폰 및 종료 한다.
     
 
-[[SpawningPool.h](https://github.com/k660323/Meserlike/blob/main/Classes/SpawningPool.h) / [SpawningPool.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SpawningPool.cpp)]
+[[SpawningPool.h](https://github.com/k660323/Meserlike/blob/main/Classes/Etc/SpawningPool.h) / [SpawningPool.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Etc/SpawningPool.cpp)]
 
 <br>
 
@@ -204,7 +204,7 @@ SpawnMosnter() (몬스터 생성)
   + 애니메이션, 스탯, 컨트롤러, 스킬북 등 각종 클래스를 초기화 및 관리하는 클래스
   + Player, Monster 클래스가 사용할 공통적인 기능들을 정의한 클래스
 
-[[Creature.h](https://github.com/k660323/Meserlike/blob/main/Classes/Creature.h) / [Creature.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Creature.cpp)]
+[[Creature.h](https://github.com/k660323/Meserlike/blob/main/Classes/Creature/Creature.h) / [Creature.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Creature/Creature.cpp)]
 
 <br>
 
@@ -213,7 +213,7 @@ SpawnMosnter() (몬스터 생성)
   + 플레이어 스탯, 플레이어 컨트롤러 클래스를 초기화 및 관리하는 클래스
   + 대시 - 쿨타임이 있으며 사용시 플레이어를 물리적으로 빠르게 이동시키는 스킬
 
-[[Player.h](https://github.com/k660323/Meserlike/blob/main/Classes/Player.h) / [Player.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Player.cpp)]
+[[Player.h](https://github.com/k660323/Meserlike/blob/main/Classes/Creature/Player.h) / [Player.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Creature/Player.cpp)]
 
 <br>
 
@@ -221,7 +221,7 @@ SpawnMosnter() (몬스터 생성)
   + Creature 클래스를 상속받은 클래스이며 몬스터 클래스가 사용하기 위한 기초 클래스 
   + 몬스터 스탯, 몬스터 컨트롤러 클래스 초기화 및 관리하는 클래스
 
-[[Monster.h](https://github.com/k660323/Meserlike/blob/main/Classes/Monster.h) / [Monster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Monster.cpp)]
+[[Monster.h](https://github.com/k660323/Meserlike/blob/main/Classes/Creature/Monster.h) / [Monster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Creature/Monster.cpp)]
 
 <br>
 
@@ -232,9 +232,9 @@ SpawnMosnter() (몬스터 생성)
   + init() 함수에서 충돌 판정 바인딩 합니다.
   + **SpawningPool 클래스에서 BossMonster클래스를 지닌 몬스터 스폰시 전용 UI를 출력합니다.**
 
-[[NormalMonster.h](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonster.h) / [NormalMonster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonster.cpp)]
+[[NormalMonster.h](https://github.com/k660323/Meserlike/blob/main/Classes/Creature/NormalMonster.h) / [NormalMonster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Creature/NormalMonster.cpp)]
 
-[[BossMonster.h](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonster.h) / [BossMonster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonster.cpp)]
+[[BossMonster.h](https://github.com/k660323/Meserlike/blob/main/Classes/Creature/BossMonster.h) / [BossMonster.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Creature/BossMonster.cpp)]
 
 
 <br>
@@ -251,7 +251,7 @@ SpawnMosnter() (몬스터 생성)
   + 애니메이션은 SetState 가상함수가 상태변경시 애니메이션이 전환되도록 설정 구체적인 로직은 자식 클래스에서 정의
   + 게임 로직은 Update 가상함수가 매프레임마다 처리할 로직을 정의한다 구체적인 로직은 자식 클래스에서 정의
 
-[[BaseController.h](https://github.com/k660323/Meserlike/blob/main/Classes/BaseController.h) / [BaseController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/BaseController.cpp)]
+[[BaseController.h](https://github.com/k660323/Meserlike/blob/main/Classes/Controller/BaseController.h) / [BaseController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Controller/BaseController.cpp)]
 
 <br>
 
@@ -260,7 +260,7 @@ SpawnMosnter() (몬스터 생성)
   + FSM(유한 상태 머신) 패턴으로 플레이어 로직 구현
   + Update()함수에서 각 상태에 대한 함수 실행하여 유기적으로 상태전환이 되도록 설계 (Idle, Move, Dead)
 
-[[PlayerController.h](https://github.com/k660323/Meserlike/blob/main/Classes/PlayerController.h) / [PlayerController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/PlayerController.cpp)]
+[[PlayerController.h](https://github.com/k660323/Meserlike/blob/main/Classes/Controller/PlayerController.h) / [PlayerController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Controller/PlayerController.cpp)]
 
 <br>
 
@@ -269,9 +269,9 @@ SpawnMosnter() (몬스터 생성)
   + FSM(유한 상태 머신) 패턴으로 몬스터 로직 구현
   + Update()함수에서 각 상태를 대한 함수를 실행하여 유기적으로 상태전환이 되도록 설계 (Idle, Move, Dead)
 
-[[NormalMonsterController.h](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonsterController.h) / [NormalMonsterController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/NormalMonsterController.cpp)]
+[[NormalMonsterController.h](https://github.com/k660323/Meserlike/blob/main/Classes/Controller/NormalMonsterController.h) / [NormalMonsterController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Controller/NormalMonsterController.cpp)]
 
-[[BossMonsterControoler.h](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonsterController.h) / [BossMonsterController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/BossMonsterController.cpp)]
+[[BossMonsterControoler.h](https://github.com/k660323/Meserlike/blob/main/Classes/Controller/BossMonsterController.h) / [BossMonsterController.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Controller/BossMonsterController.cpp)]
 
 <br>
 
@@ -285,7 +285,7 @@ SpawnMosnter() (몬스터 생성)
   + 플레이어 및 몬스터가 사용할 스킬들을 관리하는 클래스
   + 스킬 추가, 가져오기, 반복적인 스킬 멈추기, 순차적 스킬 작동 기능 구현
 
-[[SkillBook.h](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBook.h) / [SkillBook.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBook.cpp)]
+[[SkillBook.h](https://github.com/k660323/Meserlike/blob/main/Classes/Skill/SkillBook.h) / [SkillBook.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Skill/SkillBook.cpp)]
 
 <br>
 
@@ -293,7 +293,7 @@ SpawnMosnter() (몬스터 생성)
   + 스킬 클래스의 기초가 되는 클래스
   + 스킬 레벨과 레벨에 따른 스텟, 스킬 소유자 등 여러 클래스에서 사용할 기능들을 구현한 클래스
 
-[[SkillBase.h](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBase.h) / [SkillBase.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SkillBase.cpp)]
+[[SkillBase.h](https://github.com/k660323/Meserlike/blob/main/Classes/Skill/SkillBase/SkillBase.h) / [SkillBase.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Skill/SkillBase/SkillBase.cpp)]
 
 <br>
 
@@ -309,7 +309,7 @@ SpawnMosnter() (몬스터 생성)
 
   **실직적인 동작은 StartSkillAction()안의 DoSkillJob()함수를 호출하여 동작한다. 즉 DoSkillJob()에서 구체적인 동작을 구현해야 한다.**
 
-[[RepeatSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/RepeatSkill.h) / [RepeatSkill.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/RepeatSkill.cpp)]
+[[RepeatSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/Skill/SkillBase/RepeatSkill/RepeatSkill.h) / [RepeatSkill.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Skill/SkillBase/RepeatSkill/RepeatSkill.cpp)]
 
 <br>
 
@@ -325,7 +325,7 @@ SpawnMosnter() (몬스터 생성)
   4. 함수 수행 조건을 만족하면 스케줄러를 제거하고 매개변수로 받은 callback함수를 호출한다.
   5. callback함수는 SkillBook의 OnFinishedSequenceSKill()이며 다음 SequenceSkill을 수행하게 해준다.
 
-[[SequenceSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/SequenceSkill.h) / [SequenceSkill.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SequenceSkill.cpp)]
+[[SequenceSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/Skill/SkillBase/SequenceSkill/SequenceSkill.h) / [SequenceSkill.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Skill/SkillBase/SequenceSkill/SequenceSkill.cpp)]
 
 <br>
 
@@ -333,7 +333,7 @@ SpawnMosnter() (몬스터 생성)
   + SkillBase를 상속받은 클래스
   + 단순히 플레이어 및 몬스터의 능력치를 영구적으로 올려주는 클래스
 
-[[PassiveSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/PassiveSkill.h) / [PassiveSkill](https://github.com/k660323/Meserlike/blob/main/Classes/PassiveSkill.cpp)]
+[[PassiveSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/Skill/SkillBase/PassiveSkill/PassiveSkill.h) / [PassiveSkill](https://github.com/k660323/Meserlike/blob/main/Classes/Skill/SkillBase/PassiveSkill/PassiveSkill.cpp)]
 
 <br>
 
@@ -341,7 +341,7 @@ SpawnMosnter() (몬스터 생성)
   + Skill을 추가하기 위한 유틸 함수
   + ENum으로 정의된 SkillID에 따라 지정된 스킬 객체를 만들어 반환해주는 클래스
 
-[[SkillDefine.h](https://github.com/k660323/Meserlike/blob/main/Classes/SkillDefine.h)]
+[[SkillDefine.h](https://github.com/k660323/Meserlike/blob/main/Classes/Skill/SkillDefine.h)]
 
 <br>
 
@@ -355,7 +355,7 @@ SpawnMosnter() (몬스터 생성)
   + SkillBook에 스킬을 등록시 생성되는 무기 오브젝트를 담당하는 클래스 입니다.
   + 게임 월드에 스폰되어 오브젝트를 공격합니다.
  
-[[Weapon.h](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon.h) / [Weapon.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon.cpp)]
+[[Weapon.h](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon/Weapon.h) / [Weapon.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon/Weapon.cpp)]
 
 <br>
 
@@ -364,7 +364,7 @@ SpawnMosnter() (몬스터 생성)
   + 근접 공격을 담당
   + 충돌 함수가 가상 함수(onContactEnter, onContactExit)로 구현되어 있어 근접 공격을 구현할려면 이 클래스를 상속받아 구현한다.
 
-[[Melee.h](https://github.com/k660323/Meserlike/blob/main/Classes/Melee.h) / [Melee.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Melee.cpp)]
+[[Melee.h](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon/Melee/Melee.h) / [Melee.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon/Melee/Melee.cpp)]
 
 <br>
 
@@ -373,7 +373,7 @@ SpawnMosnter() (몬스터 생성)
   + 원거리 공격을 담당하여 투사체를 발사한다.
   + 물리 충돌을 감지하는 함수(DetectedNearObject) 가상 함수로 구현 되어 있고 공격 함수 Fire() 함수도 가상 함수로 구현 되어 있어 원거리 공격을 구현할라면 이 클래스를 상속받아 구현한다.
 
-[[Range.h](https://github.com/k660323/Meserlike/blob/main/Classes/Range.h) / [Range.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Range.cpp)]
+[[Range.h](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon/Range/Range.h) / [Range.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon/Range/Range.cpp)]
 
 <br>
 
@@ -384,7 +384,7 @@ SpawnMosnter() (몬스터 생성)
   + 생성자에서 초기화 하며 충돌 및 생명주기가 끝나면 자동으로 제거된다.
   + 원거리 투사체를 구현하고 싶으면 해당 클래스를 상속받아 구현하면 된다.
 
-[[Projectile.h](https://github.com/k660323/Meserlike/blob/main/Classes/Projectile.h) / [Projectile.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Projectile.cpp)]
+[[Projectile.h](https://github.com/k660323/Meserlike/blob/main/Classes/Projectile/Projectile.h) / [Projectile.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Projectile/Projectile.cpp)]
 
 
 <br>
@@ -401,7 +401,7 @@ SpawnMosnter() (몬스터 생성)
   + 옵저버 패턴(DelegateAction라는 델리게이트 변수가 있어 함수를 미리 바인딩 해놓았으면 수치 변화에 따른 브로드 캐스팅이 가능하다.)
   + 필요에 따라 상속받아 추가 구현한다.
 
-[[Stat.h](https://github.com/k660323/Meserlike/blob/main/Classes/Stat.h) / [Stat.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Stat.cpp)]
+[[Stat.h](https://github.com/k660323/Meserlike/blob/main/Classes/Stat/Stat.h) / [Stat.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Stat/Stat.cpp)]
 
 <br>
 
@@ -416,7 +416,7 @@ SpawnMosnter() (몬스터 생성)
   + 애니메이트 등록, 재생, 정지가 가능한 매니저 클래스
   + cocos2d-x는 스프라이트를 묶어서 하나의 애니메이트를 만들어 한번 실행이 끝이라 효율적으로 실행 및 재사용하기 위해 만든 클래스
  
-[[AnimateEx.h](https://github.com/k660323/Meserlike/blob/main/Classes/AnimateEx.h) / [AnimateEx.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/AnimateEx.cpp)]
+[[AnimateEx.h](https://github.com/k660323/Meserlike/blob/main/Classes/Etc/AnimateEx.h) / [AnimateEx.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Etc/AnimateEx.cpp)]
 
 
 <br>
@@ -437,14 +437,14 @@ SpawnMosnter() (몬스터 생성)
   + 두 방향 벡터에 따른 각도를 반환해주는 함수 구현
   + etc...
 
-[[Utils.h](https://github.com/k660323/Meserlike/blob/main/Classes/Utils.h)]
+[[Utils.h](https://github.com/k660323/Meserlike/blob/main/Classes/Etc/Utils.h)]
 
 <br>
 
 + Define 클래스
   + 각종 매크로 함수 정의 및 Enum을 정의한 클래스
 
-[[Define.h](https://github.com/k660323/Meserlike/blob/main/Classes/Define.h)]
+[[Define.h](https://github.com/k660323/Meserlike/blob/main/Classes/Etc/Define.h)]
 
 <br>
 
