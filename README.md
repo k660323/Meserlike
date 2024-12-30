@@ -8,7 +8,8 @@
   <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%A0%84%ED%88%AC.JPG" width="49%" height="300"/>
   <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%A0%84%ED%88%AC2.JPG" width="49%" height="300"/>
   <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%82%AC%EB%A7%9D.JPG" width="49%" height="300"/>
-  < 게임 플레이 사진 >
+  
+  <게임 플레이 사진 >
 </div>
 
 + Mserlike란?
