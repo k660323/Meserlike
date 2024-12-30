@@ -92,7 +92,7 @@
 
 <br>
 
-+ DataManager  - 데이터 매니저 (애니메이션 정보, 스프라이트 정보, 스킬 데이터, 플레이어 데이터, 몬스터 데이터 등)
++ DataManager  - 데이터 매니저 (애니메이션 정보, 스프라이트 정보, 스킬 데이터, 플레이어 데이터, 몬스터 데이터 등) (게임 시작시 Resources/Data 에 있는 JSON들을 메모리에 읽어온다.)
 
 [[DataManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/Core/DataManager.h) / [DataManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/Core/DataManager.cpp)]
 
