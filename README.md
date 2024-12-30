@@ -92,13 +92,13 @@
 
 <br>
 
-+ DataManager  - 데이터 관리 매니저
++ DataManager  - 데이터 매니저 (애니메이션 정보, 스프라이트 정보, 스킬 데이터, 플레이어 데이터, 몬스터 데이터 등)
 
 [[DataManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/Core/DataManager.h) / [DataManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/Core/DataManager.cpp)]
 
 <br>
 
-+ UIManager    - UI 매니저
++ UIManager    - UI 매니저 (Scene UI, Popup UI)
 
 [[UIManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/Core/UIManager.h) / [UIManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/Core/UIManager.cpp)]
 
