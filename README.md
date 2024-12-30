@@ -2,12 +2,12 @@
 ## 1. 소개
 
 <div align="center">
-  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.JPG" width="49%" height="300"/>
-  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95.JPG" width="49%" height="300"/>
-  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EB%AC%B4%EA%B8%B0%20%EC%84%A0%ED%83%9D.JPG" width="49%" height="300"/>
-  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%A0%84%ED%88%AC.JPG" width="49%" height="300"/>
-  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%A0%84%ED%88%AC2.JPG" width="49%" height="300"/>
-  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%82%AC%EB%A7%9D.JPG" width="49%" height="300"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.JPG" width="49%" height="280"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95.JPG" width="49%" height="280"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EB%AC%B4%EA%B8%B0%20%EC%84%A0%ED%83%9D.JPG" width="49%" height="280"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%A0%84%ED%88%AC.JPG" width="49%" height="280"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%A0%84%ED%88%AC2.JPG" width="49%" height="280"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%82%AC%EB%A7%9D.JPG" width="49%" height="280"/>
   
   <게임 플레이 사진 >
 </div>
