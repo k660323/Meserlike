@@ -410,7 +410,11 @@ SpawnMosnter() (몬스터 생성)
 ### **애니메이션**
 
 + AnimateEx
-  + 
+  + 사용자 지정 클래스 애니메이트 등록, 재생, 정지가 가능한 매니저 클래스
+  + cocos2d-x는 스프라이트를 묶어서 하나의 애니메이트를 만들어 한번 실행이 끝이라 효율적으로 실행 및 재사용하기 위해 만든 클래스
+ 
+[[AnimateEx.h](https://github.com/k660323/Meserlike/blob/main/Classes/AnimateEx.h) / [AnimateEx.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/AnimateEx.cpp)]
+
 
 <br>
 
