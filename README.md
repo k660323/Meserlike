@@ -301,8 +301,9 @@ SpawnMosnter() (몬스터 생성)
   + 반복동작을 담당하는 델리게이트 함수 Action을 매개변수로 가진다.
  
 **스킬 동작**
-1. RepeatSkill 상속받은 클래스에서 ActivateSkill() 함수 호출
-2. 해당 함수는 StartSkillAction(), 스킬 쿨타임을 하나의 시퀀스 액션으로 만들어 Action 매개변수에 담아 반복 실행한다.
+1. SkillBook클래스에서 AddSkill() 함수 호출하여 RepeatSkill을 상속받은 클래스 객체 생성
+2. 객체 생성 후 ActivateSkill() 함수 호출
+3. ActivateSkill()함수는 StartSkillAction(), 스킬 쿨타임을 하나의 시퀀스 액션으로 만들어 Action 매개변수에 담아 반복 실행한다.
 
 **실직적인 동작은 StartSkillAction()안의 DoSkillJob()함수를 호출하여 동작한다. 즉 DoSkillJob()에서 구체적인 동작을 구현해야 한다.**
 
@@ -316,10 +317,11 @@ SpawnMosnter() (몬스터 생성)
   + 스킬 사용이 끝나면 알려줄 사용자 지정 클래스인 DelegateAction을 매개변수로 가진다.
  
 **스킬 동작**
-1. SequenceSkill 상속받은 클래스에서 DoSKill을 오버라이드 하되 부모 함수를 꼭 호출해준다.
-2. 해당 클래스 작동할 내용을 함수로 만든 후 스케줄러에 등록해준다.
-3. 함수 수행 조건을 만족하면 스케줄러를 제거하고 매개변수로 받은 callback함수를 호출한다.
-4. callback함수는 SkillBook의 OnFinishedSequenceSKill()이며 다음 SequenceSkill을 수행하게 해준다.
+1. SkillBook클래스에서 AddSkill() 함수 호출하여 SequenceSkill 상속받은 클래스 객체 생성
+2. 객체 생성 후 DoSKill() 함수 호출
+3. 해당 클래스는 부모 클래스 호출 후 실행 및 스케줄러에 등록해준다.
+4. 함수 수행 조건을 만족하면 스케줄러를 제거하고 매개변수로 받은 callback함수를 호출한다.
+5. callback함수는 SkillBook의 OnFinishedSequenceSKill()이며 다음 SequenceSkill을 수행하게 해준다.
 
 [[SequenceSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/SequenceSkill.h) / [SequenceSkill.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SequenceSkill.cpp)]
 
@@ -346,6 +348,27 @@ SpawnMosnter() (몬스터 생성)
 <br>
 
 ### **무기**
+
++ Weapon
+  + SkillBook에 스킬을 등록시 생성되는 무기 오브젝트를 담당하는 클래스 입니다.
+  + 게임 월드에 스폰되어 오브젝트를 공격합니다.
+ 
+[[Weapon.h](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon.h) / [Weapon.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon.cpp)]
+
++ Melee
+  + Weapon 클래스를 상속받은 클래스
+  + 근접 공격을 담당
+  + 충돌 함수가 가상 함수(onContactEnter, onContactExit)로 구현되어 있어 근접 공격을 구현할려면 이 클래스를 상속받아 구현한다.
+
+[[Melee.h](https://github.com/k660323/Meserlike/blob/main/Classes/Melee.h) / [Melee.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Melee.cpp)]
+
++ Range
+  + Weapon 클래스를 상속받은 클래스
+  + 원거리 공격을 담당하여 투사체를 발사한다.
+  + 물리 충돌을 감지하는 함수(DetectedNearObject) 가상 함수로 구현 되어 있고 공격 함수 Fire() 함수도 가상 함수로 구현 되어 있어 원거리 공격을 구현할라면 이 클래스를 상속받아 구현한다.
+
+[[Range.h](https://github.com/k660323/Meserlike/blob/main/Classes/Range.h) / [Range.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Range.cpp)]
+
 
 
 <br>
