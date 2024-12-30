@@ -439,7 +439,9 @@ SpawnMosnter() (몬스터 생성)
 <br>
 
 + Define 클래스
-  + 
+  + 각종 매크로 함수 정의 및 Enum을 정의한 클래스
+
+[[Define.h](https://github.com/k660323/Meserlike/blob/main/Classes/Define.h)]
 
 <br>
 
