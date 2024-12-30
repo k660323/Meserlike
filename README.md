@@ -300,12 +300,12 @@ SpawnMosnter() (몬스터 생성)
   + 반복적인 스킬을 사용하는 기초 클래스
   + 반복동작을 담당하는 델리게이트 함수 Action을 매개변수로 가진다.
  
-**스킬 동작**
-1. SkillBook클래스에서 AddSkill() 함수 호출하여 RepeatSkill을 상속받은 클래스 객체 생성
-2. 객체 생성 후 ActivateSkill() 함수 호출
-3. ActivateSkill()함수는 StartSkillAction(), 스킬 쿨타임을 하나의 시퀀스 액션으로 만들어 Action 매개변수에 담아 반복 실행한다.
+  **스킬 동작**
+  1. SkillBook클래스에서 AddSkill() 함수 호출하여 RepeatSkill을 상속받은 클래스 객체 생성
+  2. 객체 생성 후 ActivateSkill() 함수 호출
+  3. ActivateSkill()함수는 StartSkillAction(), 스킬 쿨타임을 하나의 시퀀스 액션으로 만들어 Action 매개변수에 담아 반복 실행한다.
 
-**실직적인 동작은 StartSkillAction()안의 DoSkillJob()함수를 호출하여 동작한다. 즉 DoSkillJob()에서 구체적인 동작을 구현해야 한다.**
+  **실직적인 동작은 StartSkillAction()안의 DoSkillJob()함수를 호출하여 동작한다. 즉 DoSkillJob()에서 구체적인 동작을 구현해야 한다.**
 
 [[RepeatSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/RepeatSkill.h) / [RepeatSkill.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/RepeatSkill.cpp)]
 
@@ -316,12 +316,12 @@ SpawnMosnter() (몬스터 생성)
   + 순차적으로 스킬을 사용하는 기초 클래스
   + 스킬 사용이 끝나면 알려줄 사용자 지정 클래스인 DelegateAction을 매개변수로 가진다.
  
-**스킬 동작**
-1. SkillBook클래스에서 AddSkill() 함수 호출하여 SequenceSkill 상속받은 클래스 객체 생성
-2. 객체 생성 후 DoSKill() 함수 호출
-3. 해당 클래스는 부모 클래스 호출 후 실행 및 스케줄러에 등록해준다.
-4. 함수 수행 조건을 만족하면 스케줄러를 제거하고 매개변수로 받은 callback함수를 호출한다.
-5. callback함수는 SkillBook의 OnFinishedSequenceSKill()이며 다음 SequenceSkill을 수행하게 해준다.
+  **스킬 동작**
+  1. SkillBook클래스에서 AddSkill() 함수 호출하여 SequenceSkill 상속받은 클래스 객체 생성
+  2. 객체 생성 후 DoSKill() 함수 호출
+  3. 해당 클래스는 부모 클래스 호출 후 실행 및 스케줄러에 등록해준다.
+  4. 함수 수행 조건을 만족하면 스케줄러를 제거하고 매개변수로 받은 callback함수를 호출한다.
+  5. callback함수는 SkillBook의 OnFinishedSequenceSKill()이며 다음 SequenceSkill을 수행하게 해준다.
 
 [[SequenceSkill.h](https://github.com/k660323/Meserlike/blob/main/Classes/SequenceSkill.h) / [SequenceSkill.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SequenceSkill.cpp)]
 
@@ -355,12 +355,16 @@ SpawnMosnter() (몬스터 생성)
  
 [[Weapon.h](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon.h) / [Weapon.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Weapon.cpp)]
 
+<br>
+
 + Melee
   + Weapon 클래스를 상속받은 클래스
   + 근접 공격을 담당
   + 충돌 함수가 가상 함수(onContactEnter, onContactExit)로 구현되어 있어 근접 공격을 구현할려면 이 클래스를 상속받아 구현한다.
 
 [[Melee.h](https://github.com/k660323/Meserlike/blob/main/Classes/Melee.h) / [Melee.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Melee.cpp)]
+
+<br>
 
 + Range
   + Weapon 클래스를 상속받은 클래스
@@ -369,6 +373,16 @@ SpawnMosnter() (몬스터 생성)
 
 [[Range.h](https://github.com/k660323/Meserlike/blob/main/Classes/Range.h) / [Range.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Range.cpp)]
 
+<br>
+
++ Projectile
+  + 투사체 클래스
+  + Range에서 스폰하는 원거리 공격 클래스이다.
+  + 일정한 방향과 속도로 이동하는 투사체이다.
+  + 생성자에서 초기화 하며 충돌 및 생명주기가 끝나면 자동으로 제거된다.
+  + 원거리 투사체를 구현하고 싶으면 해당 클래스를 상속받아 구현하면 된다.
+
+[[Projectile.h](https://github.com/k660323/Meserlike/blob/main/Classes/Projectile.h) / [Projectile.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Projectile.cpp)]
 
 
 <br>
