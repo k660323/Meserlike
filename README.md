@@ -68,7 +68,7 @@
 
 + Managers - 아래의 매니저들을 관리하는 매니저
 
-[[Managers.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers.h) / [Managers.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers.cpp)]
+[[Managers.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/Managers.h) / [Managers.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/Managers.cpp)]
 
 <br>
 
@@ -76,31 +76,31 @@
 
 + SceneManager - 생성된 씬을 관리하는 매니저
 
-[[SceneManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/SceneManager.h) / [SceneManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SceneManager.cpp)]
+[[SceneManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/SceneManager.h) / [SceneManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/SceneManager.cpp)]
 
 <br>
 
 + SoundManager - 사운드 매니저
 
-[[SoundManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/SoundManager.h) / [SoundManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/SoundManager.cpp)]
+[[SoundManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/SoundManager.h) / [SoundManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/SoundManager.cpp)]
 
 <br>
 
 + InputManager - 사용자 입력 관리 매니저
 
-[[InputManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/InputManager.h) / [InputManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/InputManager.cpp)]
+[[InputManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/InputManager.h) / [InputManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/InputManager.cpp)]
 
 <br>
 
 + DataManager  - 데이터 관리 매니저
 
-[[DataManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/DataManager.h) / [DataManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/DataManager.cpp)]
+[[DataManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/DataManager.h) / [DataManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/DataManager.cpp)]
 
 <br>
 
 + UIManager    - UI 매니저
 
-[[UIManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/UIManager.h) / [UIManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/UIManager.cpp)]
+[[UIManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/UIManager.h) / [UIManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/UIManager.cpp)]
 
        
 #### **컨텐츠 매니저**
@@ -108,14 +108,14 @@
 + MapManager
   + 게임 맵을 불러오거나, 맵정보 기반으로 오브젝트를 스폰하기 위한 매니저
 
-[[MapManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/MapManager.h) / [MapManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/MapManager.cpp)]
+[[MapManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/MapManager.h) / [MapManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/MapManager.cpp)]
 
 <br>
 
 + GameManager
   + 게임 정보 및 로직을 수행하는 매니저
 
-[[GameManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/GameManager.h) / [GameManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/GameManager.cpp)]
+[[GameManager.h](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/GameManager.h) / [GameManager.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Managers/GameManager.cpp)]
 
 <br>
 
@@ -132,7 +132,7 @@
   + 씬 초기화
   + UI_LobbyScene 생성 및 배경음악 실행
 
-[[LobbyScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/LobbyScene.h) / [LobbyScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/LobbyScene.cpp)]
+[[LobbyScene.h](https://github.com/k660323/Meserlike/blob/main/Classes/Scene/LobbyScene.h) / [LobbyScene.cpp](https://github.com/k660323/Meserlike/blob/main/Classes/Scene/LobbyScene.cpp)]
 
 <br>
     
