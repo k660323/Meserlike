@@ -2,12 +2,14 @@
 ## 1. 소개
 
 <div align="center">
-  <img src="https://github.com/k660323/FunnyLand/blob/main/Images/%EC%B5%9C%ED%9B%84%EC%9D%98%20%EC%83%9D%EC%A1%B4%EC%9E%90.JPG" width="49%" height="230"/>
-  <img src="https://github.com/k660323/FunnyLand/blob/main/Images/%EC%A2%80%EB%B9%84%20%EC%84%9C%EB%B0%94%EC%9D%B4%EB%B2%8C.JPG" width="49%" height="230"/>
-  <img src="https://github.com/k660323/FunnyLand/blob/main/Images/%EC%8A%88%ED%8C%85%EC%8A%88%ED%84%B0.JPG" width="49%" height="230"/>
-  <img src="https://github.com/k660323/FunnyLand/blob/main/Images/%EB%A6%BF%EC%A7%80%20%EB%B8%94%EB%A1%9D%EC%BB%A4.JPG" width="49%" height="230"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.JPG" width="49%" height="300"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%ED%99%98%EA%B2%BD%20%EC%84%A4%EC%A0%95.JPG" width="49%" height="300"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EB%AC%B4%EA%B8%B0%20%EC%84%A0%ED%83%9D.JPG" width="49%" height="300"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%A0%84%ED%88%AC.JPG" width="49%" height="300"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%A0%84%ED%88%AC2.JPG" width="49%" height="300"/>
+  <img src="https://github.com/k660323/Meserlike/blob/main/Images/%EC%82%AC%EB%A7%9D.JPG" width="49%" height="300"/>
   
-  < 게임 플레이 사진 >
+  <게임 플레이 사진 >
 </div>
 
 + Mserlike란?
