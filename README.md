@@ -473,3 +473,6 @@ SpawnMosnter() (몬스터 생성)
 
 ## 7. 플레이 영상
 + https://www.youtube.com/watch?v=zycwzQuWkkU
+
+## 8. PDF
++ https://github.com/k660323/Meserlike/blob/main/PDF/%EB%A9%94%EC%84%9C%EB%9D%BC%EC%9D%B4%ED%81%AC.pdf
