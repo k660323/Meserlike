@@ -1,10 +1,10 @@
 #include "UI_PauseMenuWindow.h"
 #include "ui/CocosGUI.h"
 #include "Utils.h"
-#include "Managers.h"
-#include "SoundManager.h"
-#include "UIManager.h"
-#include "SceneManager.h"
+#include "Manager/Managers.h"
+#include "Manager/Core/SoundManager.h"
+#include "Manager/Core/UIManager.h"
+#include "Manager/Core/SceneManager.h"
 
 USING_NS_CC;
 using namespace ui;

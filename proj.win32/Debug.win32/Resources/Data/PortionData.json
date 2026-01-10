@@ -1,0 +1,53 @@
+{
+  "PortionDatas": [
+    {
+      "skillId": 3000,
+      "skillName": "체력 버프",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "체력 회복(소)",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0,
+          "value": 50
+        },
+        {
+          "level": 2,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "체력 회복(중)",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0,
+          "value": 100
+        },
+        {
+          "level": 3,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "체력 회복(대)",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0,
+          "value": 150
+        }
+      ]
+    }
+  ]
+}

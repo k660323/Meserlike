@@ -1,8 +1,8 @@
 #include "UI_Setting.h"
 #include "Utils.h"
-#include "SceneEx.h"
+#include "Scene/SceneEx.h"
 #include "ui/CocosGUI.h"
-#include "SoundManager.h"
+#include "Manager/Core/SoundManager.h"
 
 USING_NS_CC;
 using namespace ui;

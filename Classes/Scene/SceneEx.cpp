@@ -1,10 +1,10 @@
 #include "SceneEx.h"
-#include "Managers.h"
-#include "SceneManager.h"
-#include "MapManager.h"
-#include "GameManager.h"
-#include "Player.h"
-#include "UI_Base.h"
+#include "Manager/Managers.h"
+#include "Manager/Core/SceneManager.h"
+#include "Manager/Contents/MapManager.h"
+#include "Manager/Contents/GameManager.h"
+#include "Contents/Creature/Player.h"
+#include "UI/UI_Base.h"
 USING_NS_CC;
 
 bool SceneEx::init()

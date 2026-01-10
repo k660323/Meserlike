@@ -1,0 +1,64 @@
+{
+  "SequenceSkillDatas": [
+    {
+      "skillId": 2000,
+      "skillName": "이동",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 0,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 2001,
+      "skillName": "돌진",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0,
+          "atk": 0,
+          "specialAtk": 0,
+          "speed": 5,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 30,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    },
+    {
+      "skillId": 2002,
+      "skillName": "원형 샷",
+      "skillSpritePath": "",
+      "skillDatas": [
+        {
+          "level": 1,
+          "cooltime": 0.15,
+          "atk": 0,
+          "specialAtk": 10,
+          "speed": 250,
+          "command": "none",
+          "extraMaxHp": 0,
+          "extraAtk": 0,
+          "extraSpecialAtk": 0,
+          "extraDefense": 0,
+          "extraMoveSpeed": 0
+        }
+      ]
+    }
+  ]
+}

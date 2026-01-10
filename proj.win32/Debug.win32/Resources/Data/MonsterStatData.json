@@ -1,0 +1,125 @@
+{
+  "monsterStatArray": [
+    {
+      "id": 0,
+      "level": 1,
+      "maxHp": 30.0,
+      "atk": 5.0,
+      "specialAtk": 0.0,
+      "defense": 0,
+      "moveSpeed": 200.0,
+      "score": 10,
+      "dropExp": 10
+    },
+    {
+      "id": 1,
+      "level": 3,
+      "maxHp": 50.0,
+      "atk": 10.0,
+      "specialAtk": 0.0,
+      "defense": 0,
+      "moveSpeed": 150.0,
+      "score": 30,
+      "dropExp": 15
+    },
+    {
+      "id": 2,
+      "level": 5,
+      "maxHp": 75.0,
+      "atk": 25.0,
+      "specialAtk": 0.0,
+      "defense": 2,
+      "moveSpeed": 150.0,
+      "score": 25,
+      "dropExp": 30
+    },
+    {
+      "id": 3,
+      "level": 5,
+      "maxHp": 100.0,
+      "atk": 30.0,
+      "specialAtk": 0.0,
+      "defense": 0,
+      "moveSpeed": 150.0,
+      "score": 30,
+      "dropExp": 40
+    },
+    {
+      "id": 4,
+      "level": 10,
+      "maxHp": 300.0,
+      "atk": 45.0,
+      "specialAtk": 0.0,
+      "defense": 5,
+      "moveSpeed": 125.0,
+      "score": 70,
+      "dropExp": 60
+    },
+    {
+      "id": 5,
+      "level": 7,
+      "maxHp": 125.0,
+      "atk": 5.0,
+      "specialAtk": 20.0,
+      "defense": 1,
+      "moveSpeed": 105.0,
+      "score": 50,
+      "dropExp": 50
+    },
+    {
+      "id": 6,
+      "level": 15,
+      "maxHp": 150.0,
+      "atk": 10.0,
+      "specialAtk": 20.0,
+      "defense": 1,
+      "moveSpeed": 120.0,
+      "score": 60,
+      "dropExp": 50
+    },
+    {
+      "id": 7,
+      "level": 1,
+      "maxHp": 5.0,
+      "atk": 50.0,
+      "specialAtk": 0.0,
+      "defense": 999,
+      "moveSpeed": 100.0,
+      "score": 50,
+      "dropExp": 50
+    },
+    {
+      "id": 8,
+      "level": 15,
+      "maxHp": 150.0,
+      "atk": 20.0,
+      "specialAtk": 0.0,
+      "defense": 1,
+      "moveSpeed": 100.0,
+      "score": 100,
+      "dropExp": 70
+    },
+    {
+      "id": 9,
+      "level": 17,
+      "maxHp": 150.0,
+      "atk": 35.0,
+      "specialAtk": 0.0,
+      "defense": 1,
+      "moveSpeed": 150.0,
+      "score": 125,
+      "dropExp": 85
+    },
+    {
+      "id": 10,
+      "level": 20,
+      "maxHp": 35000.0,
+      "atk": 35.0,
+      "specialAtk": 30.0,
+      "defense": 5,
+      "moveSpeed": 200.0,
+      "score": 3500,
+      "dropExp": 1500
+    }
+  ]
+}

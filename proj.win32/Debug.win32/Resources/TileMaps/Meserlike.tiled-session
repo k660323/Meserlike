@@ -1,0 +1,83 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Field.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Users/SGA/Desktop/SGA_Proj/Resources/TileMaps/MetaSet.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/SGA/Desktop/SGA_Proj/Resources/TileMaps/TestDesert.tmx": {
+            "scale": 1.471015625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.847044452706,
+                "y": 159.75357161824843
+            }
+        },
+        "C:/Users/SGA/Desktop/SGA_Proj/Resources/TileMaps/TestDesert.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/k6603/Downloads/SGA_Proj/Resources/TileMaps/MetaSet.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/k6603/Downloads/SGA_Proj/Resources/TileMaps/TestDesert.tmx": {
+            "scale": 1.17265625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.78680879413724,
+                "y": 160.31978680879416
+            }
+        },
+        "C:/Users/k6603/Downloads/SGA_Proj/Resources/TileMaps/TestDesert.tsx": {
+            "scaleInDock": 1
+        },
+        "Field.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 805.3333333333333,
+                "y": 727.3333333333333
+            }
+        },
+        "GroundTile.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Moveable.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "ObjectLayer.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/k6603/OneDrive/바탕 화면/TileMaps",
+    "map.height": 40,
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": "3",
+    "map.width": 60,
+    "openFiles": [
+        "Field.tmx",
+        "GroundTile.tsx",
+        "ObjectLayer.tsx",
+        "Moveable.tsx"
+    ],
+    "project": "Meserlike.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "Moveable.tsx",
+        "ObjectLayer.tsx",
+        "GroundTile.tsx",
+        "Field.tmx",
+        "C:/Users/SGA/Desktop/SGA_Proj/Resources/TileMaps/TestDesert.tmx",
+        "C:/Users/k6603/Downloads/SGA_Proj/Resources/TileMaps/TestDesert.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}

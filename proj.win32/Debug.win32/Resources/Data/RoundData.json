@@ -1,0 +1,443 @@
+{
+  "RoundSpawnArray": [
+    {
+      "round": 0,
+      "spawnInterval": 0.5,
+      "spawnData": {
+        "spawnWaveInterval": 1.0,
+        "spawnWaveArray": [
+          {
+            "monsterId": 0,
+            "spawnCount": 20
+          },
+          {
+            "monsterId": 1,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 2,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 0,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 1,
+            "spawnCount": 5
+          },
+          {
+            "monsterId": 2,
+            "spawnCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "round": 1,
+      "spawnInterval": 0.5,
+      "spawnData": {
+        "spawnWaveInterval": 1.0,
+        "spawnWaveArray": [
+          {
+            "monsterId": 0,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 1,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 2,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 3,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 1,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 2,
+            "spawnCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "round": 2,
+      "spawnInterval": 0.5,
+      "spawnData": {
+        "spawnWaveInterval": 1.0,
+        "spawnWaveArray": [
+          {
+            "monsterId": 1,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 2,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 5
+          },
+          {
+            "monsterId": 3,
+            "spawnCount": 7
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 7
+          },
+          {
+            "monsterId": 2,
+            "spawnCount": 10
+          }
+        ]
+      }
+    },
+    {
+      "round": 3,
+      "spawnInterval": 0.5,
+      "spawnData": {
+        "spawnWaveInterval": 1.0,
+        "spawnWaveArray": [
+          {
+            "monsterId": 2,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 3,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 7
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 5
+          },
+          {
+            "monsterId": 3,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 2,
+            "spawnCount": 12
+          }
+        ]
+      }
+    },
+    {
+      "round": 4,
+      "spawnInterval": 0.5,
+      "spawnData": {
+        "spawnWaveInterval": 1.0,
+        "spawnWaveArray": [
+          {
+            "monsterId": 3,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 3,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 3,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "round": 5,
+      "spawnInterval": 0.5,
+      "spawnData": {
+        "spawnWaveInterval": 1.0,
+        "spawnWaveArray": [
+          {
+            "monsterId": 2,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 3,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 5
+          },
+          {
+            "monsterId": 3,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 8,
+            "spawnCount": 10
+          }
+        ]
+      }
+    },
+    {
+      "round": 6,
+      "spawnInterval": 0.5,
+      "spawnData": {
+        "spawnWaveInterval": 1.0,
+        "spawnWaveArray": [
+          {
+            "monsterId": 3,
+            "spawnCount": 20
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 3,
+            "spawnCount": 16
+          },
+          {
+            "monsterId": 7,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 13
+          },
+          {
+            "monsterId": 2,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 8,
+            "spawnCount": 7
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 7,
+            "spawnCount": 7
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 10
+          }
+        ]
+      }
+    },
+    {
+      "round": 7,
+      "spawnInterval": 0.5,
+      "spawnData": {
+        "spawnWaveInterval": 1.0,
+        "spawnWaveArray": [
+          {
+            "monsterId": 5,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 8,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 6,
+            "spawnCount": 10
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 20
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 7,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 20
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 8,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 9,
+            "spawnCount": 15
+          }
+        ]
+      }
+    },
+    {
+      "round": 8,
+      "spawnInterval": 0.5,
+      "spawnData": {
+        "spawnWaveInterval": 1.0,
+        "spawnWaveArray": [
+          {
+            "monsterId": 5,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 8,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 6,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 20
+          },
+          {
+            "monsterId": 7,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 4,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 5,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 8,
+            "spawnCount": 15
+          },
+          {
+            "monsterId": 9,
+            "spawnCount": 10
+          }
+        ]
+      }
+    },
+    {
+      "round": 9,
+      "spawnInterval": 0.5,
+      "spawnData": {
+        "spawnWaveInterval": 1.0,
+          "spawnWaveArray": [
+            {
+              "monsterId": 8,
+              "spawnCount": 15
+            },
+            {
+              "monsterId": 4,
+              "spawnCount": 15
+            },
+            {
+              "monsterId": 9,
+              "spawnCount": 10
+            },
+            {
+              "monsterId": 5,
+              "spawnCount": 10
+            },
+            {
+              "monsterId": 6,
+              "spawnCount": 15
+            },
+            {
+              "monsterId": 7,
+              "spawnCount": 15
+            },
+            {
+              "monsterId": 9,
+              "spawnCount": 10
+            },
+            {
+              "monsterId": 8,
+              "spawnCount": 10
+            },
+            {
+              "monsterId": 5,
+              "spawnCount": 15
+            },
+            {
+              "monsterId": 8,
+              "spawnCount": 15
+            },
+            {
+              "monsterId": 9,
+              "spawnCount": 10
+            }
+          ]
+      }
+    },
+    {
+      "round": 10,
+      "spawnInterval": 0.5,
+      "spawnData": {
+        "spawnWaveInterval": 1.0,
+        "spawnWaveArray": [
+          {
+            "monsterId": 10,
+            "spawnCount": 1
+          }
+        ]
+      }
+    }
+  ]
+}

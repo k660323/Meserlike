@@ -1,7 +1,7 @@
 #include "UI_Base.h"
 #include "map"
-#include "Managers.h"
-#include "UIManager.h"
+#include "Manager/Managers.h"
+#include "Manager/Core/UIManager.h"
 USING_NS_CC;
 
 UI_Base::UI_Base()

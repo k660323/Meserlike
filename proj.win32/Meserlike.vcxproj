@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v140_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v141_xp</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v140_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v141_xp</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(EngineRoot);$(EngineRoot)external;$(EngineRoot)cocos\audio\include;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <CustomBuildStep>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy "$(ProjectDir)..\Resources" "$(OutDir)\Resources\" /D /E /I /F /Y
+      </Command>
+      <Outputs>$(TargetName).cab</Outputs>
+      <Inputs>$(TargetFileName)</Inputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(EngineRoot);$(EngineRoot)external;$(EngineRoot)cocos\audio\include;$(EngineRoot)external\chipmunk\include\chipmunk;$(EngineRoot)extensions;..\Classes;..;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\Contents\Controllers\BaseController.cpp" />
+    <ClCompile Include="..\Classes\Contents\Controllers\BossMonsterController.cpp" />
+    <ClCompile Include="..\Classes\Contents\Controllers\MonsterController.cpp" />
+    <ClCompile Include="..\Classes\Contents\Controllers\NormalMonsterController.cpp" />
+    <ClCompile Include="..\Classes\Contents\Controllers\PlayerController.cpp" />
+    <ClCompile Include="..\Classes\Contents\Creature\BossMonster.cpp" />
+    <ClCompile Include="..\Classes\Contents\Creature\Creature.cpp" />
+    <ClCompile Include="..\Classes\Contents\Creature\Monster.cpp" />
+    <ClCompile Include="..\Classes\Contents\Creature\NormalMonster.cpp" />
+    <ClCompile Include="..\Classes\Contents\Creature\Player.cpp" />
+    <ClCompile Include="..\Classes\Contents\Ex\AnimateEx.cpp" />
+    <ClCompile Include="..\Classes\Contents\KeyBoardInput.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Passive\PassiveSkill.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Portion\HpPortion.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Portion\Portion.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\ETC\RepeatSpeedBuff.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Melee\ProjectileSheid.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Melee\SpinningAX.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Range\BowSkill.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Range\EnemyRangeBullet.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Range\FanSkill.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Range\GunSkill.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Range\MultiShotSkill.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\RepeatSkill.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Sequence\Dash.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Sequence\FullCircleShot.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Sequence\Move.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\Sequence\SequenceSkill.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\SkillBase.cpp" />
+    <ClCompile Include="..\Classes\Contents\Skills\SkillBook.cpp" />
+    <ClCompile Include="..\Classes\Contents\SpawningPool\SpawningPool.cpp" />
+    <ClCompile Include="..\Classes\Contents\Stat\MonsterStat.cpp" />
+    <ClCompile Include="..\Classes\Contents\Stat\PlayerStat.cpp" />
+    <ClCompile Include="..\Classes\Contents\Stat\Stat.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\Melee\Axe.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\Melee\Melee.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\Melee\Shield.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\Projectile\Bullet.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\Projectile\Projectile.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\Range\Bow.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\Range\Fan.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\Range\Gun.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\Range\Range.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\SpawnWeapon\BulletParty.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\SpawnWeapon\SpawnWeapon.cpp" />
+    <ClCompile Include="..\Classes\Contents\Weapon\Weapon.cpp" />
+    <ClCompile Include="..\Classes\Contents\WorldItem\HpPortionItem.cpp" />
+    <ClCompile Include="..\Classes\Contents\WorldItem\WorldItem.cpp" />
+    <ClCompile Include="..\Classes\Manager\Contents\GameManager.cpp" />
+    <ClCompile Include="..\Classes\Manager\Contents\MapManager.cpp" />
+    <ClCompile Include="..\Classes\Manager\Core\DataManager.cpp" />
+    <ClCompile Include="..\Classes\Manager\Core\InputManager.cpp" />
+    <ClCompile Include="..\Classes\Manager\Core\SceneManager.cpp" />
+    <ClCompile Include="..\Classes\Manager\Core\SoundManager.cpp" />
+    <ClCompile Include="..\Classes\Manager\Core\UIManager.cpp" />
+    <ClCompile Include="..\Classes\Manager\Managers.cpp" />
+    <ClCompile Include="..\Classes\Scene\GameScene.cpp" />
+    <ClCompile Include="..\Classes\Scene\LobbyScene.cpp" />
+    <ClCompile Include="..\Classes\Scene\SceneEx.cpp" />
+    <ClCompile Include="..\Classes\UI\Etc\UI_SkillSlotBtn.cpp" />
+    <ClCompile Include="..\Classes\UI\JoyStickAndButton\SneakyButton.cpp" />
+    <ClCompile Include="..\Classes\UI\JoyStickAndButton\SneakyButtonSkinnedBase.cpp" />
+    <ClCompile Include="..\Classes\UI\JoyStickAndButton\SneakyJoystick.cpp" />
+    <ClCompile Include="..\Classes\UI\JoyStickAndButton\SneakyJoystickSkinnedBase.cpp" />
+    <ClCompile Include="..\Classes\UI\Popup\UI_PauseMenuWindow.cpp" />
+    <ClCompile Include="..\Classes\UI\Popup\UI_Popup.cpp" />
+    <ClCompile Include="..\Classes\UI\Popup\UI_ResultWindow.cpp" />
+    <ClCompile Include="..\Classes\UI\Popup\UI_Setting.cpp" />
+    <ClCompile Include="..\Classes\UI\Popup\UI_SkillSelect.cpp" />
+    <ClCompile Include="..\Classes\UI\Scene\Sub\UI_BossInfo.cpp" />
+    <ClCompile Include="..\Classes\UI\Scene\Sub\UI_Button.cpp" />
+    <ClCompile Include="..\Classes\UI\Scene\Sub\UI_DashButton.cpp" />
+    <ClCompile Include="..\Classes\UI\Scene\Sub\UI_JoyStick.cpp" />
+    <ClCompile Include="..\Classes\UI\Scene\UI_GameScene.cpp" />
+    <ClCompile Include="..\Classes\UI\Scene\UI_LobbyScene.cpp" />
+    <ClCompile Include="..\Classes\UI\Scene\UI_Scene.cpp" />
+    <ClCompile Include="..\Classes\UI\UI_Base.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\Bitmask.h" />
+    <ClInclude Include="..\Classes\Camera.h" />
+    <ClInclude Include="..\Classes\Contents\Controllers\BaseController.h" />
+    <ClInclude Include="..\Classes\Contents\Controllers\BossMonsterController.h" />
+    <ClInclude Include="..\Classes\Contents\Controllers\MonsterController.h" />
+    <ClInclude Include="..\Classes\Contents\Controllers\NormalMonsterController.h" />
+    <ClInclude Include="..\Classes\Contents\Controllers\PlayerController.h" />
+    <ClInclude Include="..\Classes\Contents\Creature\BossMonster.h" />
+    <ClInclude Include="..\Classes\Contents\Creature\Creature.h" />
+    <ClInclude Include="..\Classes\Contents\Creature\Monster.h" />
+    <ClInclude Include="..\Classes\Contents\Creature\NormalMonster.h" />
+    <ClInclude Include="..\Classes\Contents\Creature\Player.h" />
+    <ClInclude Include="..\Classes\Contents\Ex\AnimateEx.h" />
+    <ClInclude Include="..\Classes\Contents\Ex\DelegateAction.h" />
+    <ClInclude Include="..\Classes\Contents\Ex\DelegateFunc.h" />
+    <ClInclude Include="..\Classes\Contents\KeyBoardInput.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Passive\PassiveSkill.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Portion\HpPortion.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Portion\Portion.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\ETC\RepeatSpeedBuff.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Melee\ProjectileSheid.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Melee\SpinningAX.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Range\BowSkill.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Range\EnemyRangeBullet.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Range\FanSkill.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Range\GunSkill.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Range\MultiShotSkill.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\RepeatSkill.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Sequence\Dash.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Sequence\FullCircleShot.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Sequence\Move.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\Sequence\SequenceSkill.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\SkillBase.h" />
+    <ClInclude Include="..\Classes\Contents\Skills\SkillBook.h" />
+    <ClInclude Include="..\Classes\Contents\SpawningPool\SpawningPool.h" />
+    <ClInclude Include="..\Classes\Contents\Stat\MonsterStat.h" />
+    <ClInclude Include="..\Classes\Contents\Stat\PlayerStat.h" />
+    <ClInclude Include="..\Classes\Contents\Stat\Stat.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\Melee\Axe.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\Melee\Melee.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\Melee\Shield.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\Projectile\Bullet.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\Projectile\Projectile.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\Range\Bow.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\Range\Fan.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\Range\Gun.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\Range\Range.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\SpawnWeapon\BulletParty.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\SpawnWeapon\SpawnWeapon.h" />
+    <ClInclude Include="..\Classes\Contents\Weapon\Weapon.h" />
+    <ClInclude Include="..\Classes\Contents\WorldItem\HpPortionItem.h" />
+    <ClInclude Include="..\Classes\Contents\WorldItem\WorldItem.h" />
+    <ClInclude Include="..\Classes\Data\Data.h" />
+    <ClInclude Include="..\Classes\Define.h" />
+    <ClInclude Include="..\Classes\Interface\IHitable.h" />
+    <ClInclude Include="..\Classes\Manager\Contents\GameManager.h" />
+    <ClInclude Include="..\Classes\Manager\Contents\MapManager.h" />
+    <ClInclude Include="..\Classes\Manager\Core\DataManager.h" />
+    <ClInclude Include="..\Classes\Manager\Core\InputManager.h" />
+    <ClInclude Include="..\Classes\Manager\Core\SceneManager.h" />
+    <ClInclude Include="..\Classes\Manager\Core\SoundManager.h" />
+    <ClInclude Include="..\Classes\Manager\Core\UIManager.h" />
+    <ClInclude Include="..\Classes\Manager\Managers.h" />
+    <ClInclude Include="..\Classes\Scene\GameScene.h" />
+    <ClInclude Include="..\Classes\Scene\LobbyScene.h" />
+    <ClInclude Include="..\Classes\Scene\SceneEx.h" />
+    <ClInclude Include="..\Classes\SkillDefine.h" />
+    <ClInclude Include="..\Classes\Tags.h" />
+    <ClInclude Include="..\Classes\UI\Etc\UI_SkillSlotBtn.h" />
+    <ClInclude Include="..\Classes\UI\JoyStickAndButton\SneakyButton.h" />
+    <ClInclude Include="..\Classes\UI\JoyStickAndButton\SneakyButtonSkinnedBase.h" />
+    <ClInclude Include="..\Classes\UI\JoyStickAndButton\SneakyJoystick.h" />
+    <ClInclude Include="..\Classes\UI\JoyStickAndButton\SneakyJoystickSkinnedBase.h" />
+    <ClInclude Include="..\Classes\UI\Popup\UI_PauseMenuWindow.h" />
+    <ClInclude Include="..\Classes\UI\Popup\UI_Popup.h" />
+    <ClInclude Include="..\Classes\UI\Popup\UI_ResultWindow.h" />
+    <ClInclude Include="..\Classes\UI\Popup\UI_Setting.h" />
+    <ClInclude Include="..\Classes\UI\Popup\UI_SkillSelect.h" />
+    <ClInclude Include="..\Classes\UI\Scene\Sub\UI_BossInfo.h" />
+    <ClInclude Include="..\Classes\UI\Scene\Sub\UI_Button.h" />
+    <ClInclude Include="..\Classes\UI\Scene\Sub\UI_DashButton.h" />
+    <ClInclude Include="..\Classes\UI\Scene\Sub\UI_JoyStick.h" />
+    <ClInclude Include="..\Classes\UI\Scene\UI_GameScene.h" />
+    <ClInclude Include="..\Classes\UI\Scene\UI_LobbyScene.h" />
+    <ClInclude Include="..\Classes\UI\Scene\UI_Scene.h" />
+    <ClInclude Include="..\Classes\UI\UI_Base.h" />
+    <ClInclude Include="..\Classes\Utils.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cocos2d\cocos\2d\libcocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\cocos\editor-support\spine\proj.win32\libSpine.vcxproj">
+      <Project>{b7c2a162-dec9-4418-972e-240ab3cbfcae}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

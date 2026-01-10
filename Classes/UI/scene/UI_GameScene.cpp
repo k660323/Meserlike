@@ -1,16 +1,17 @@
 #include "UI_GameScene.h"
-#include "UI_JoyStick.h"
-#include "UI_DashButton.h"
+#include "UI/Scene/Sub/UI_JoyStick.h"
+#include "UI/Scene/Sub/UI_DashButton.h"
 #include "ui/CocosGUI.h"
 #include "Utils.h"
-#include "Managers.h"
-#include "SoundManager.h"
-#include "UIManager.h"
-#include "GameManager.h"
-#include "Player.h"
-#include "PlayerStat.h"
-#include "BossMonster.h"
-#include "UI_BossInfo.h"
+#include "Manager/Managers.h"
+#include "Manager/Core/SoundManager.h"
+#include "Manager/Core/UIManager.h"
+#include "Manager/Contents/GameManager.h"
+#include "Contents/Creature/Player.h"
+#include "Contents/Stat/PlayerStat.h"
+#include "Contents/Creature/BossMonster.h"
+#include "UI/Scene/Sub/UI_BossInfo.h"
+
 USING_NS_CC;
 using namespace ui;
 

@@ -1,0 +1,12 @@
+{
+  "PlayerInfoDatas": [
+    {
+      "id": 0,
+      "spriteId": "Player",
+      "soundId" :  "Player",
+      "skillIds": [
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="14">
+ <tileset firstgid="1" source="GroundTile.tsx"/>
+ <tileset firstgid="442" source="ObjectLayer.tsx"/>
+ <tileset firstgid="526" source="Moveable.tsx"/>
+ <layer id="1" name="Ground" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6ETVP/6pmF/SFg1VVVVVVVVVVVV3w+D9ZyQ
+  </data>
+ </layer>
+ <layer id="3" name="Wall" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt0bENwDAMxEBp/xGdBZIp7AkekTsCvOYbVWKVJHGtrnqav3+95/Zr/k77Ut32pbJvZl8W+2b2ZbFvZl8W+2b2ZbFvZl8W+2b2ZbFvZl8W+2b2ZbntS9/pf+grSWQb8KgOOA==
+  </data>
+ </layer>
+ <layer id="4" name="Block" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztz8EJwDAAw8DQAbr/uFmhFAQy6MBPP3ROkmTJ+2zvT++qepmPRb3Mx6Je5mNRL/OxqJf5WNTLfCzqZT4W9TIfi3qZj0W9zMeiXuZjUS/zsaj322d5SZItF7D7CUE=
+  </data>
+ </layer>
+ <objectgroup id="2" name="ObjectLayer1">
+  <object id="3" name="PlayerSpawnPoint" x="960" y="640">
+   <point/>
+  </object>
+  <object id="4" name="MobSpawnPos0" x="96" y="96">
+   <point/>
+  </object>
+  <object id="6" name="MobSpawnPos1" x="960" y="96">
+   <point/>
+  </object>
+  <object id="7" name="MobSpawnPos2" x="1824" y="96">
+   <point/>
+  </object>
+  <object id="8" name="MobSpawnPos3" x="96" y="640">
+   <point/>
+  </object>
+  <object id="9" name="MobSpawnPos4" x="1824" y="640">
+   <point/>
+  </object>
+  <object id="10" name="MobSpawnPos5" x="96" y="1184">
+   <point/>
+  </object>
+  <object id="11" name="MobSpawnPos6" x="960" y="1184">
+   <point/>
+  </object>
+  <object id="12" name="MobSpawnPos7" x="1824" y="1184">
+   <point/>
+  </object>
+  <object id="13" name="BossSpawnPos" x="960" y="480">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

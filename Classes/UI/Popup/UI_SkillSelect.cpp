@@ -1,11 +1,11 @@
 #include "UI_SkillSelect.h"
 #include "Utils.h"
 #include "ui/CocosGUI.h"
-#include "Managers.h"
-#include "SoundManager.h"
-#include "UIManager.h"
-#include "UI_SkillSlotBtn.h"
-#include "GameManager.h"
+#include "Manager/Managers.h"
+#include "Manager/Core/SoundManager.h"
+#include "Manager/Core/UIManager.h"
+#include "Manager/Contents/GameManager.h"
+#include "UI/Etc/UI_SkillSlotBtn.h"
 
 USING_NS_CC;
 using namespace ui;

@@ -1,6 +1,6 @@
 #include "UI_Popup.h"
-#include "Managers.h"
-#include "UIManager.h"
+#include "Manager/Managers.h"
+#include "Manager/Core/UIManager.h"
 
 UI_Popup::UI_Popup()
 {

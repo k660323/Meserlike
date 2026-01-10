@@ -1,6 +1,6 @@
 #pragma once
-#include "UI_Base.h"
-#include "UI_BossInfo.h"
+#include "UI/UI_Base.h"
+#include "UI/Scene/Sub/UI_BossInfo.h"
 #include "set"
 
 class UI_BossInfo;

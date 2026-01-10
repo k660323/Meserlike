@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{e5b5ffc2-d987-45de-94eb-999434110f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{710a63e6-ac6a-4870-9245-cc8286543353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{ae2da6cc-7ae2-4cf6-af76-574169aedad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Scene">
+      <UniqueIdentifier>{1432625a-ed42-4974-a50e-24d84c57b1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Popup">
+      <UniqueIdentifier>{529cd6b5-5e01-4f41-84e9-581511a961f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Scene\Sub">
+      <UniqueIdentifier>{4afa7e61-a9ee-4ffb-809a-0be076fb35ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{5082f3c5-a23d-4372-98c7-0f7a63de4ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Core">
+      <UniqueIdentifier>{7e97c2b6-1c5b-478a-91dd-9dfa32eb086d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Contents">
+      <UniqueIdentifier>{a67b3914-c069-453b-b44f-8632b632e702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Creature">
+      <UniqueIdentifier>{5583048f-8374-498b-ae74-93fa1e2769d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Ex">
+      <UniqueIdentifier>{2040158c-9637-47a8-b6b8-c2614491c71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\JoyStickAndButton">
+      <UniqueIdentifier>{f363e697-0733-47bd-9f23-9088044b8aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Controllers">
+      <UniqueIdentifier>{4bd880f5-9d0b-4941-a8c1-1dcd4b578a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Stat">
+      <UniqueIdentifier>{f5533a11-a260-4d7b-b742-26f2caa4bca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{27b42823-21b8-4a32-a94a-ba8f2abb0f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Skills">
+      <UniqueIdentifier>{71da645b-b967-4576-8c48-57f95455a57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\SpawningPool">
+      <UniqueIdentifier>{01f26032-137e-4d7d-a7b0-06a40afde35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{3cb725c9-34bb-435e-9475-8ddf9fc40124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Weapon">
+      <UniqueIdentifier>{bbabdeac-e7c0-4772-aaca-eb435ae09bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Weapon\Melee">
+      <UniqueIdentifier>{8c81400b-a063-48ad-b81e-d29188b5739f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Weapon\Range">
+      <UniqueIdentifier>{278ea9d4-9da7-4db1-b0d3-456c6e4549e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Weapon\Projectile">
+      <UniqueIdentifier>{8bccf63a-34fb-495e-aef7-b616bd2bf68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Skills\Repeat">
+      <UniqueIdentifier>{fdfb9988-f772-47dd-9630-ae2104efd8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Skills\Repeat\Range">
+      <UniqueIdentifier>{0cc711a6-aa8e-435d-881d-7227c14af386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Skills\Repeat\Melee">
+      <UniqueIdentifier>{77a44bf8-e45b-4a7e-a4de-ae81cffbd32c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Skills\Sequence">
+      <UniqueIdentifier>{efb0042a-4e41-4465-b25e-05cbc13323e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Weapon\SpawnWeapon">
+      <UniqueIdentifier>{57c12207-363f-42a5-b858-def0fa5c59a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Skills\Passive">
+      <UniqueIdentifier>{195b7de1-f0ee-4a3b-b880-babafd8067ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Skills\Repeat\ETC">
+      <UniqueIdentifier>{7b6da970-cdec-48c0-8d4f-d84b04e879c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Etc">
+      <UniqueIdentifier>{3457afd7-27a4-4299-a829-89d3bab3e06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Skills\Portion">
+      <UniqueIdentifier>{a2f8291f-9c87-4fc2-93f5-ad290328cd86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\WorldItem">
+      <UniqueIdentifier>{45d3671d-1306-4d44-ad2b-e546d9cdaa5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\KeyBoardInput.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Controllers\BaseController.cpp">
+      <Filter>Contents\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Controllers\BossMonsterController.cpp">
+      <Filter>Contents\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Controllers\MonsterController.cpp">
+      <Filter>Contents\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Controllers\NormalMonsterController.cpp">
+      <Filter>Contents\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Controllers\PlayerController.cpp">
+      <Filter>Contents\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Creature\BossMonster.cpp">
+      <Filter>Contents\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Creature\Creature.cpp">
+      <Filter>Contents\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Creature\Monster.cpp">
+      <Filter>Contents\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Creature\NormalMonster.cpp">
+      <Filter>Contents\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Creature\Player.cpp">
+      <Filter>Contents\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Ex\AnimateEx.cpp">
+      <Filter>Contents\Ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\SkillBase.cpp">
+      <Filter>Contents\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\SkillBook.cpp">
+      <Filter>Contents\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Passive\PassiveSkill.cpp">
+      <Filter>Contents\Skills\Passive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Portion\HpPortion.cpp">
+      <Filter>Contents\Skills\Portion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Portion\Portion.cpp">
+      <Filter>Contents\Skills\Portion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\RepeatSkill.cpp">
+      <Filter>Contents\Skills\Repeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\ETC\RepeatSpeedBuff.cpp">
+      <Filter>Contents\Skills\Repeat\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Melee\ProjectileSheid.cpp">
+      <Filter>Contents\Skills\Repeat\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Melee\SpinningAX.cpp">
+      <Filter>Contents\Skills\Repeat\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Range\BowSkill.cpp">
+      <Filter>Contents\Skills\Repeat\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Range\EnemyRangeBullet.cpp">
+      <Filter>Contents\Skills\Repeat\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Range\FanSkill.cpp">
+      <Filter>Contents\Skills\Repeat\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Range\GunSkill.cpp">
+      <Filter>Contents\Skills\Repeat\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Repeat\Range\MultiShotSkill.cpp">
+      <Filter>Contents\Skills\Repeat\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Sequence\Dash.cpp">
+      <Filter>Contents\Skills\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Sequence\FullCircleShot.cpp">
+      <Filter>Contents\Skills\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Sequence\Move.cpp">
+      <Filter>Contents\Skills\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Skills\Sequence\SequenceSkill.cpp">
+      <Filter>Contents\Skills\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\SpawningPool\SpawningPool.cpp">
+      <Filter>Contents\SpawningPool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Stat\MonsterStat.cpp">
+      <Filter>Contents\Stat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Stat\PlayerStat.cpp">
+      <Filter>Contents\Stat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Stat\Stat.cpp">
+      <Filter>Contents\Stat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\Weapon.cpp">
+      <Filter>Contents\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\Melee\Axe.cpp">
+      <Filter>Contents\Weapon\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\Melee\Melee.cpp">
+      <Filter>Contents\Weapon\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\Melee\Shield.cpp">
+      <Filter>Contents\Weapon\Melee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\Projectile\Bullet.cpp">
+      <Filter>Contents\Weapon\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\Projectile\Projectile.cpp">
+      <Filter>Contents\Weapon\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\Range\Bow.cpp">
+      <Filter>Contents\Weapon\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\Range\Fan.cpp">
+      <Filter>Contents\Weapon\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\Range\Gun.cpp">
+      <Filter>Contents\Weapon\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\Range\Range.cpp">
+      <Filter>Contents\Weapon\Range</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\SpawnWeapon\BulletParty.cpp">
+      <Filter>Contents\Weapon\SpawnWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\Weapon\SpawnWeapon\SpawnWeapon.cpp">
+      <Filter>Contents\Weapon\SpawnWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\WorldItem\HpPortionItem.cpp">
+      <Filter>Contents\WorldItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Contents\WorldItem\WorldItem.cpp">
+      <Filter>Contents\WorldItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\Managers.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\Contents\GameManager.cpp">
+      <Filter>Manager\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\Contents\MapManager.cpp">
+      <Filter>Manager\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\Core\DataManager.cpp">
+      <Filter>Manager\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\Core\InputManager.cpp">
+      <Filter>Manager\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\Core\SceneManager.cpp">
+      <Filter>Manager\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\Core\SoundManager.cpp">
+      <Filter>Manager\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\Core\UIManager.cpp">
+      <Filter>Manager\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GameScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\LobbyScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SceneEx.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\UI_Base.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Etc\UI_SkillSlotBtn.cpp">
+      <Filter>UI\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\JoyStickAndButton\SneakyButton.cpp">
+      <Filter>UI\JoyStickAndButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\JoyStickAndButton\SneakyButtonSkinnedBase.cpp">
+      <Filter>UI\JoyStickAndButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\JoyStickAndButton\SneakyJoystick.cpp">
+      <Filter>UI\JoyStickAndButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\JoyStickAndButton\SneakyJoystickSkinnedBase.cpp">
+      <Filter>UI\JoyStickAndButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Popup\UI_PauseMenuWindow.cpp">
+      <Filter>UI\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Popup\UI_Popup.cpp">
+      <Filter>UI\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Popup\UI_ResultWindow.cpp">
+      <Filter>UI\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Popup\UI_Setting.cpp">
+      <Filter>UI\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Popup\UI_SkillSelect.cpp">
+      <Filter>UI\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Scene\UI_GameScene.cpp">
+      <Filter>UI\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Scene\UI_LobbyScene.cpp">
+      <Filter>UI\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Scene\UI_Scene.cpp">
+      <Filter>UI\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Scene\Sub\UI_BossInfo.cpp">
+      <Filter>UI\Scene\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Scene\Sub\UI_Button.cpp">
+      <Filter>UI\Scene\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Scene\Sub\UI_DashButton.cpp">
+      <Filter>UI\Scene\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Scene\Sub\UI_JoyStick.cpp">
+      <Filter>UI\Scene\Sub</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Define.h" />
+    <ClInclude Include="..\Classes\Utils.h" />
+    <ClInclude Include="..\Classes\Bitmask.h" />
+    <ClInclude Include="..\Classes\Tags.h" />
+    <ClInclude Include="..\Classes\Camera.h" />
+    <ClInclude Include="..\Classes\SkillDefine.h" />
+    <ClInclude Include="..\Classes\Contents\KeyBoardInput.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Controllers\BaseController.h">
+      <Filter>Contents\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Controllers\BossMonsterController.h">
+      <Filter>Contents\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Controllers\MonsterController.h">
+      <Filter>Contents\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Controllers\NormalMonsterController.h">
+      <Filter>Contents\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Controllers\PlayerController.h">
+      <Filter>Contents\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Creature\BossMonster.h">
+      <Filter>Contents\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Creature\Creature.h">
+      <Filter>Contents\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Creature\Monster.h">
+      <Filter>Contents\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Creature\NormalMonster.h">
+      <Filter>Contents\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Creature\Player.h">
+      <Filter>Contents\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Ex\AnimateEx.h">
+      <Filter>Contents\Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Ex\DelegateAction.h">
+      <Filter>Contents\Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Ex\DelegateFunc.h">
+      <Filter>Contents\Ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\SkillBase.h">
+      <Filter>Contents\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\SkillBook.h">
+      <Filter>Contents\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Passive\PassiveSkill.h">
+      <Filter>Contents\Skills\Passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Portion\HpPortion.h">
+      <Filter>Contents\Skills\Portion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Portion\Portion.h">
+      <Filter>Contents\Skills\Portion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\RepeatSkill.h">
+      <Filter>Contents\Skills\Repeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\ETC\RepeatSpeedBuff.h">
+      <Filter>Contents\Skills\Repeat\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Melee\ProjectileSheid.h">
+      <Filter>Contents\Skills\Repeat\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Melee\SpinningAX.h">
+      <Filter>Contents\Skills\Repeat\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Range\BowSkill.h">
+      <Filter>Contents\Skills\Repeat\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Range\EnemyRangeBullet.h">
+      <Filter>Contents\Skills\Repeat\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Range\FanSkill.h">
+      <Filter>Contents\Skills\Repeat\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Range\GunSkill.h">
+      <Filter>Contents\Skills\Repeat\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Repeat\Range\MultiShotSkill.h">
+      <Filter>Contents\Skills\Repeat\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Sequence\Dash.h">
+      <Filter>Contents\Skills\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Sequence\FullCircleShot.h">
+      <Filter>Contents\Skills\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Sequence\Move.h">
+      <Filter>Contents\Skills\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Skills\Sequence\SequenceSkill.h">
+      <Filter>Contents\Skills\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\SpawningPool\SpawningPool.h">
+      <Filter>Contents\SpawningPool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Stat\MonsterStat.h">
+      <Filter>Contents\Stat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Stat\PlayerStat.h">
+      <Filter>Contents\Stat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Stat\Stat.h">
+      <Filter>Contents\Stat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\Weapon.h">
+      <Filter>Contents\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\Melee\Axe.h">
+      <Filter>Contents\Weapon\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\Melee\Melee.h">
+      <Filter>Contents\Weapon\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\Melee\Shield.h">
+      <Filter>Contents\Weapon\Melee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\Projectile\Bullet.h">
+      <Filter>Contents\Weapon\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\Projectile\Projectile.h">
+      <Filter>Contents\Weapon\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\Range\Bow.h">
+      <Filter>Contents\Weapon\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\Range\Fan.h">
+      <Filter>Contents\Weapon\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\Range\Gun.h">
+      <Filter>Contents\Weapon\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\Range\Range.h">
+      <Filter>Contents\Weapon\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\SpawnWeapon\BulletParty.h">
+      <Filter>Contents\Weapon\SpawnWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\Weapon\SpawnWeapon\SpawnWeapon.h">
+      <Filter>Contents\Weapon\SpawnWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\WorldItem\HpPortionItem.h">
+      <Filter>Contents\WorldItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Contents\WorldItem\WorldItem.h">
+      <Filter>Contents\WorldItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Data\Data.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Interface\IHitable.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\Managers.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\Contents\GameManager.h">
+      <Filter>Manager\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\Contents\MapManager.h">
+      <Filter>Manager\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\Core\DataManager.h">
+      <Filter>Manager\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\Core\InputManager.h">
+      <Filter>Manager\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\Core\SceneManager.h">
+      <Filter>Manager\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\Core\SoundManager.h">
+      <Filter>Manager\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\Core\UIManager.h">
+      <Filter>Manager\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GameScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\LobbyScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SceneEx.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\UI_Base.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Etc\UI_SkillSlotBtn.h">
+      <Filter>UI\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\JoyStickAndButton\SneakyButton.h">
+      <Filter>UI\JoyStickAndButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\JoyStickAndButton\SneakyButtonSkinnedBase.h">
+      <Filter>UI\JoyStickAndButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\JoyStickAndButton\SneakyJoystick.h">
+      <Filter>UI\JoyStickAndButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\JoyStickAndButton\SneakyJoystickSkinnedBase.h">
+      <Filter>UI\JoyStickAndButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Popup\UI_PauseMenuWindow.h">
+      <Filter>UI\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Popup\UI_Popup.h">
+      <Filter>UI\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Popup\UI_ResultWindow.h">
+      <Filter>UI\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Popup\UI_Setting.h">
+      <Filter>UI\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Popup\UI_SkillSelect.h">
+      <Filter>UI\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Scene\UI_GameScene.h">
+      <Filter>UI\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Scene\UI_LobbyScene.h">
+      <Filter>UI\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Scene\UI_Scene.h">
+      <Filter>UI\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Scene\Sub\UI_BossInfo.h">
+      <Filter>UI\Scene\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Scene\Sub\UI_Button.h">
+      <Filter>UI\Scene\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Scene\Sub\UI_DashButton.h">
+      <Filter>UI\Scene\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Scene\Sub\UI_JoyStick.h">
+      <Filter>UI\Scene\Sub</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

@@ -2,8 +2,8 @@
 #include "cocos2d.h"
 #include "Define.h"
 #include "ui/CocosGUI.h"
-#include "Managers.h"
-#include "SceneManager.h"
+#include "Manager/Managers.h"
+#include "Manager/Core/SceneManager.h"
 
 class UI_Base;
 

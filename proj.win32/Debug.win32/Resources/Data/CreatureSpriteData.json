@@ -1,0 +1,670 @@
+{
+  "CreatureSpriteData": [
+    {
+      "spriteId": "Player",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Player/stand.png",
+          "sizeY": 85.0,
+          "sizeX": 56.2,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Player/stand.png",
+          "sizeY": 85.0,
+          "sizeX": 56.2,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 3,
+          "animSpeed": 0.5
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Player/walk.png",
+          "sizeY": 85.0,
+          "sizeX": 56.2,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 4,
+          "animSpeed": 0.25
+        },
+        {
+          "state": "Dead",
+          "isLoop": true,
+          "path": "Creature/Player/dead.png",
+          "sizeY": 85.0,
+          "sizeX": 60.5,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 8,
+          "animSpeed": 0.25
+        }
+      ]
+    },
+    {
+      "spriteId": "Snail",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Monster/Snail/Idle.png",
+          "sizeY": 26.0,
+          "sizeX": 37.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Monster/Snail/Idle.png",
+          "sizeY": 26.0,
+          "sizeX": 37.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Monster/Snail/Move.png",
+          "sizeY": 32.0,
+          "sizeX": 47.5,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 5,
+          "animSpeed": 0.25
+        },
+        {
+          "state": "Dead",
+          "isLoop": false,
+          "path": "Creature/Monster/Snail/Dead.png",
+          "sizeY": 42.0,
+          "sizeX": 55.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 9,
+          "animSpeed": 0.15
+        }
+      ]
+    },
+    {
+      "spriteId": "BlueSnail",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Monster/BlueSnail/Idle.png",
+          "sizeY": 44.0,
+          "sizeX": 44.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Monster/BlueSnail/Idle.png",
+          "sizeY": 44.0,
+          "sizeX": 44.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Monster/BlueSnail/Move.png",
+          "sizeY": 44.0,
+          "sizeX": 54.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 4,
+          "animSpeed": 0.25
+        },
+        {
+          "state": "Dead",
+          "isLoop": false,
+          "path": "Creature/Monster/BlueSnail/Dead.png",
+          "sizeY": 42.0,
+          "sizeX": 73.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 9,
+          "animSpeed": 0.15
+        }
+      ]
+    },
+    {
+      "spriteId": "RedSnail",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Monster/RedSnail/Idle.png",
+          "sizeY": 44.0,
+          "sizeX": 44.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Monster/RedSnail/Idle.png",
+          "sizeY": 44.0,
+          "sizeX": 44.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Monster/RedSnail/Move.png",
+          "sizeY": 44.0,
+          "sizeX": 56.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 4,
+          "animSpeed": 0.25
+        },
+        {
+          "state": "Dead",
+          "isLoop": false,
+          "path": "Creature/Monster/RedSnail/Dead.png",
+          "sizeY": 42.0,
+          "sizeX": 73.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 9,
+          "animSpeed": 0.15
+        }
+      ]
+    },
+    {
+      "spriteId": "CokeSnail",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Monster/CokeSnail/Idle.png",
+          "sizeY": 44.0,
+          "sizeX": 52.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Monster/CokeSnail/Idle.png",
+          "sizeY": 44.0,
+          "sizeX": 52.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Monster/CokeSnail/Move.png",
+          "sizeY": 44.0,
+          "sizeX": 61.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 4,
+          "animSpeed": 0.25
+        },
+        {
+          "state": "Dead",
+          "isLoop": false,
+          "path": "Creature/Monster/CokeSnail/Dead.png",
+          "sizeY": 42.0,
+          "sizeX": 75.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 12,
+          "animSpeed": 0.15
+        }
+      ]
+    },
+    {
+      "spriteId": "DeformedSnail",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Monster/DeformedSnail/Idle.png",
+          "sizeY": 185.0,
+          "sizeX": 182.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Monster/DeformedSnail/Idle.png",
+          "sizeY": 185.0,
+          "sizeX": 182.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 6,
+          "animSpeed": 0.25
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Monster/DeformedSnail/Move.png",
+          "sizeY": 185.0,
+          "sizeX": 190.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 6,
+          "animSpeed": 0.25
+        },
+        {
+          "state": "Dead",
+          "isLoop": false,
+          "path": "Creature/Monster/DeformedSnail/Dead.png",
+          "sizeY": 200.0,
+          "sizeX": 280.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 12,
+          "animSpeed": 0.15
+        }
+      ]
+    },
+    {
+      "spriteId": "ChubbySnail",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Monster/ChubbySnail/Idle.png",
+          "sizeY": 78.0,
+          "sizeX": 81.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 8,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Monster/ChubbySnail/Idle.png",
+          "sizeY": 78.0,
+          "sizeX": 81.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 8,
+          "animSpeed": 0.25
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Monster/ChubbySnail/Move.png",
+          "sizeY": 80.0,
+          "sizeX": 86.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 6,
+          "animSpeed": 0.25
+        },
+        {
+          "state": "Dead",
+          "isLoop": false,
+          "path": "Creature/Monster/ChubbySnail/Dead.png",
+          "sizeY": 95.0,
+          "sizeX": 145.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 14,
+          "animSpeed": 0.15
+        }
+      ]
+    },
+    {
+      "spriteId": "MossSnail",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Monster/MossSnail/Idle.png",
+          "sizeY": 120.0,
+          "sizeX": 130.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Monster/MossSnail/Idle.png",
+          "sizeY": 120.0,
+          "sizeX": 130.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 6,
+          "animSpeed": 0.25
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Monster/MossSnail/Move.png",
+          "sizeY": 120.0,
+          "sizeX": 144.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 12,
+          "animSpeed": 0.2
+        },
+        {
+          "state": "Dead",
+          "isLoop": false,
+          "path": "Creature/Monster/MossSnail/Dead.png",
+          "sizeY": 150.0,
+          "sizeX": 205.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 14,
+          "animSpeed": 0.15
+        }
+      ]
+    },
+    {
+      "spriteId": "BlackSnail",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Monster/BlackSnail/Idle.png",
+          "sizeY": 85.0,
+          "sizeX": 100.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Monster/BlackSnail/Idle.png",
+          "sizeY": 85.0,
+          "sizeX": 100.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 6,
+          "animSpeed": 0.2
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Monster/BlackSnail/Move.png",
+          "sizeY": 85.0,
+          "sizeX": 106.5,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 8,
+          "animSpeed": 0.2
+        },
+        {
+          "state": "Dead",
+          "isLoop": false,
+          "path": "Creature/Monster/BlackSnail/Dead.png",
+          "sizeY": 85.0,
+          "sizeX": 125.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 10,
+          "animSpeed": 0.15
+        }
+      ]
+    },
+    {
+      "spriteId": "DesertSnail",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Monster/DesertSnail/Idle.png",
+          "sizeY": 95.0,
+          "sizeX": 141.3,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Monster/DesertSnail/Idle.png",
+          "sizeY": 95.0,
+          "sizeX": 141.3,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 6,
+          "animSpeed": 0.2
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Monster/DesertSnail/Move.png",
+          "sizeY": 95.0,
+          "sizeX": 160.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 8,
+          "animSpeed": 0.2
+        },
+        {
+          "state": "Dead",
+          "isLoop": false,
+          "path": "Creature/Monster/DesertSnail/Dead.png",
+          "sizeY": 150.0,
+          "sizeX": 240.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 13,
+          "animSpeed": 0.15
+        }
+      ]
+    },
+    {
+      "spriteId": "FierceDesertSnail",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Monster/FierceDesertSnail/Idle.png",
+          "sizeY": 110.0,
+          "sizeX": 191.3,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Monster/FierceDesertSnail/Idle.png",
+          "sizeY": 110.0,
+          "sizeX": 191.3,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 6,
+          "animSpeed": 0.2
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Monster/FierceDesertSnail/Move.png",
+          "sizeY": 112.0,
+          "sizeX": 191.3,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 6,
+          "animSpeed": 0.2
+        },
+        {
+          "state": "Dead",
+          "isLoop": false,
+          "path": "Creature/Monster/FierceDesertSnail/Dead.png",
+          "sizeY": 155.0,
+          "sizeX": 240.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 13,
+          "animSpeed": 0.15
+        }
+      ]
+    },
+    {
+      "spriteId": "Mano",
+      "uiImagePath": "Creature/Monster/Mano/ManoUIImage.png",
+      "defaultSpriteData": [
+        {
+          "path": "Creature/Monster/Mano/Idle.png",
+          "sizeY": 125.0,
+          "sizeX": 136.3,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "Creature/Monster/Mano/Idle.png",
+          "sizeY": 125.0,
+          "sizeX": 136.3,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 9,
+          "animSpeed": 0.2
+        },
+        {
+          "state": "Move",
+          "isLoop": true,
+          "path": "Creature/Monster/Mano/Move.png",
+          "sizeY": 125.0,
+          "sizeX": 137.5,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 6,
+          "animSpeed": 0.2
+        },
+        {
+          "state": "Dead",
+          "isLoop": false,
+          "path": "Creature/Monster/Mano/Dead.png",
+          "sizeY": 155.0,
+          "sizeX": 162.5,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 23,
+          "animSpeed": 0.15
+        }
+      ]
+    },
+    {
+      "spriteId": "LevelUp",
+      "defaultSpriteData": [
+        {
+          "path": "ETC/LevelUp/LevelUp.png",
+          "sizeY": 1000.0,
+          "sizeX": 1500.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "ETC/LevelUp/LevelUp.png",
+          "sizeY": 1000.0,
+          "sizeX": 1135.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 21,
+          "animSpeed": 0.1
+        }
+      ]
+    }
+  ]
+}

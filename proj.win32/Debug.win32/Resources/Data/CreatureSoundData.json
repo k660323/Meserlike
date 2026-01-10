@@ -1,0 +1,64 @@
+{
+  "CreatureSoundDatas": [
+    {
+      "id": "Snail",
+      "Damaged": "Sound/Monster/Snail/Damage.mp3",
+      "Die": "Sound/Monster/Snail/Die.mp3"
+    },
+    {
+      "id": "BlueSnail",
+      "Damaged": "Sound/Monster/Snail/Damage.mp3",
+      "Die": "Sound/Monster/Snail/Die.mp3"
+    },
+    {
+      "id": "RedSnail",
+      "Damaged": "Sound/Monster/Snail/Damage.mp3",
+      "Die": "Sound/Monster/Snail/Die.mp3"
+    },
+    {
+      "id": "CokeSnail",
+      "Damaged": "Sound/Monster/Snail/Damage.mp3",
+      "Die": "Sound/Monster/Snail/Die.mp3"
+    },
+    {
+      "id": "DeformedSnail",
+      "Damaged": "Sound/Monster/DeformedSnail/Damage.mp3",
+      "Die": "Sound/Monster/DeformedSnail/Die.mp3"
+    },
+    {
+      "id": "ChubbySnail",
+      "Damaged": "Sound/Monster/Snail/Damage.mp3",
+      "Die": "Sound/Monster/Snail/Die.mp3"
+    },
+    {
+      "id": "MossSnail",
+      "Damaged": "Sound/Monster/MossSnail/Damage.mp3",
+      "Die": "Sound/Monster/MossSnail/Die.mp3"
+    },
+    {
+      "id": "BlackSnail",
+      "Damaged": "Sound/Monster/Snail/Damage.mp3",
+      "Die": "Sound/Monster/Snail/Die.mp3"
+    },
+    {
+      "id": "DesertSnail",
+      "Damaged": "Sound/Monster/DesertSnail/Hit.mp3",
+      "Die": "Sound/Monster/DesertSnail/Die.mp3"
+    },
+    {
+      "id": "FierceDesertSnail",
+      "Damaged": "Sound/Monster/FierceDesertSnail/Hit.mp3",
+      "Die": "Sound/Monster/FierceDesertSnail/Die.mp3"
+    },
+    {
+      "id": "Mano",
+      "Damaged": "Sound/Monster/Mano/Damage.mp3",
+      "Die": "Sound/Monster/Mano/Die.mp3"
+    },
+    {
+      "id": "Player",
+      "Damaged": "",
+      "Die": "Sound/Player/Tombstone.mp3"
+    }
+  ]
+}

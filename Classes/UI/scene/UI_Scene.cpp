@@ -1,9 +1,9 @@
 #include "UI_Scene.h"
 #include "Utils.h"
-#include "Managers.h"
-#include "UIManager.h"
-#include "BossMonster.h"
-#include "UI_BossInfo.h"
+#include "Manager/Managers.h"
+#include "Manager/Core/UIManager.h"
+#include "Contents/Creature/BossMonster.h"
+#include "UI/Scene/Sub/UI_BossInfo.h"
 USING_NS_CC;
 
 UI_Scene::UI_Scene()

@@ -1,8 +1,8 @@
 #include "LobbyScene.h"
-#include "UI_LobbyScene.h"
+#include "UI/Scene/UI_LobbyScene.h"
 #include "Define.h"
-#include "UIManager.h"
-#include "SoundManager.h"
+#include "Manager/Core/UIManager.h"
+#include "Manager/Core/SoundManager.h"
 USING_NS_CC;
 
 

@@ -1,12 +1,12 @@
 #include "UI_LobbyScene.h"
-#include "Managers.h"
+#include "Manager/Managers.h"
 #include "Utils.h"
-#include "SceneManager.h"
+#include "Manager/Core/SceneManager.h"
 #include "ui/CocosGUI.h"
-#include "UIManager.h"
-#include "UI_Popup.h"
-#include "SceneEx.h"
-#include "SoundManager.h"
+#include "Manager/Core/UIManager.h"
+#include "UI/Popup/UI_Popup.h"
+#include "Scene/SceneEx.h"
+#include "Manager/Core/SoundManager.h"
 
 USING_NS_CC;
 using namespace ui;
@@ -42,7 +42,7 @@ bool UI_LobbyScene::init()
     ttfConfig = TTFConfig("fonts/MaplestoryBold.ttf", 60);
     
     // 제목
-    Label*  titleLabel = Label::createWithTTF(ttfConfig, "매서라이크");
+    Label*  titleLabel = Label::createWithTTF(ttfConfig, "메서라이크");
     titleLabel->setAnchorPoint(Vec2(0.5f, 1.0f));
     titleLabel->setPosition(Utils::GetScreenPos(PivotPoint::Top, 0.0f, -0.2f));
     titleLabel->setTextColor(Color4B::BLACK);

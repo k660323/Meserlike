@@ -1,0 +1,126 @@
+{
+  "MonsterInfoDatas": [
+    {
+      "id": 0,
+      "spriteId": "Snail",
+      "soundId": "Snail",
+      "skillIds": [
+
+      ],
+      "isBoss": false
+    },
+    {
+      "id": 1,
+      "spriteId": "BlueSnail",
+      "soundId": "BlueSnail",
+      "skillIds": [
+
+      ],
+      "isBoss": false
+    },
+    {
+      "id": 2,
+      "spriteId": "RedSnail",
+      "soundId": "RedSnail",
+      "skillIds": [
+
+      ],
+      "isBoss": false
+    },
+    {
+      "id": 3,
+      "spriteId": "CokeSnail",
+      "soundId": "CokeSnail",
+      "skillIds": [
+
+      ],
+      "isBoss": false
+    },
+    {
+      "id": 4,
+      "spriteId": "DeformedSnail",
+      "soundId": "DeformedSnail",
+      "skillIds": [
+      ],
+      "isBoss": false
+    },
+    {
+      "id": 5,
+      "spriteId": "ChubbySnail",
+      "soundId": "ChubbySnail",
+      "skillIds": [
+        {
+          "id": 4000
+        }
+      ],
+      "isBoss": false
+    },
+    {
+      "id": 6,
+      "spriteId": "MossSnail",
+      "soundId": "MossSnail",
+      "skillIds": [
+        {
+          "id": 4001
+        }
+      ],
+      "isBoss": false
+    },
+    {
+      "id": 7,
+      "spriteId": "BlackSnail",
+      "soundId": "BlackSnail",
+      "skillIds": [
+      ],
+      "isBoss": false
+    },
+    {
+      "id": 8,
+      "spriteId": "DesertSnail",
+      "soundId": "DesertSnail",
+      "skillIds": [
+      ],
+      "isBoss": false
+    },
+    {
+      "id": 9,
+      "spriteId": "FierceDesertSnail",
+      "soundId": "FierceDesertSnail",
+      "skillIds": [
+        {
+          "id": 1000
+        }
+      ],
+      "isBoss": false
+    },
+    {
+      "id": 10,
+      "spriteId": "Mano",
+      "soundId": "Mano",
+      "skillIds": [
+        {
+          "id": 2000
+        },
+        {
+          "id": 2001
+        },
+        {
+          "id": 2001
+        },
+        {
+          "id": 2001
+        },
+        {
+          "id": 2000
+        },
+        {
+          "id": 2001
+        },
+        {
+          "id": 2002
+        }
+      ],
+      "isBoss": true
+    }
+  ]
+}

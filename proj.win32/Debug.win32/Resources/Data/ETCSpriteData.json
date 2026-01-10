@@ -1,0 +1,33 @@
+{
+  "ETCSpriteData": [
+    {
+      "spriteId": "LevelUp",
+      "defaultSpriteData": [
+        {
+          "path": "ETC/LevelUp/LevelUp.png",
+          "sizeY": 1000.0,
+          "sizeX": 1500.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 1,
+          "animSpeed": 0.0
+        }
+      ],
+      "animationData": [
+        {
+          "state": "Idle",
+          "isLoop": true,
+          "path": "ETC/LevelUp/LevelUp.png",
+          "sizeY": 1000.0,
+          "sizeX": 1135.0,
+          "rowMinY": 0,
+          "rowMaxY": 1,
+          "colMinX": 0,
+          "colMaxX": 21,
+          "animSpeed": 0.1
+        }
+      ]
+    }
+  ]
+}
